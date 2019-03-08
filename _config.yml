@@ -1,19 +1,21 @@
 theme: jekyll-theme-midnight
 
-# Profile information
+# Profile:
+title : simple site
 name: Patrick Ernandes
-title: Blog and contact
-#description: >
-#    My site
-#permalink: ':title/'
-#baseurl: "/ernandes" # the subpath of your site, e.g. /blog
-url: "http://ernandes.info" # the base hostname & protocol for your site, e.g. http://example.com
+description: >
+    Information
+production_url : https://patrickernandes.github.io/site
+url: "https://ernandes.info" # the base hostname & protocol for your site.
 
-# Social
+# Social:
 facebook: #Add your Facebook
-twitter: #Add your Twitter
-google-plus: #Add your Google+
-#github: @jtemporal
+twitter: patrickernandes
+github: patrickernandes
 
-# Contact form
-email: #your-email@domain.com
+# Contact form:
+email: suporte@ernandes.info
+
+# markdown model:
+markdown: kramdown
+
