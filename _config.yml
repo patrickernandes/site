@@ -1,1 +1,19 @@
 theme: jekyll-theme-midnight
+
+# Profile information
+name: Patrick Ernandes
+title: blog and contact
+description: >
+    My site
+permalink: ':title/'
+baseurl: "/blogfresh" # the subpath of your site, e.g. /blog
+url: "http://ernandes.info" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Social
+facebook: #Add your Facebook
+twitter: #Add your Twitter
+google-plus: #Add your Google+
+github: @jtemporal
+
+# Contact form
+email: #your-email@domain.com
