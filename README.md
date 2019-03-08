@@ -1,3 +1,3 @@
-# site
+Meu blog [blog](http://ernandes.info) 
+Source repository powered on [github](https://github.com/patrickernandes/site)
 
-This is my site.
