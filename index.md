@@ -1,4 +1,4 @@
-# Patrick Ernandes [contact] (suporte@ernandes.info)
+# Patrick Ernandes [contact](suporte@ernandes.info)
 
 You can use the [editor on GitHub](https://github.com/patrickernandes/site/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
