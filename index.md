@@ -13,7 +13,7 @@ Vamos listar alguns motivos quem podem ser colocados em prática e facilitar a s
 
 * Manutenção:
 
-  Num ambiente virtualizados, podemos transferir maquinas virtuais de um host para outro e programar as paradas sem qualquer interrupição.
+  Num ambiente virtualizados, podemos transferir maquinas virtuais de um host para outro e programar as paradas sem qualquer interrupção.
 
 * Custos:
 
