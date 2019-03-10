@@ -3,17 +3,27 @@
 ## Os motivos para você colocar em prática
 
 Virtualizar seus servidores em prática significa compartilhar os recursos de um único servidor físico com vários servidores virtuais. Um único "host" possibilita ter várias máquinas virtuais, as quais cada uma com seu sistema operacional.  
-É a possibilidade de poder centralizar e gerenciar os recursos em um único "host". 
+É a possibilidade de poder centralizar e gerenciar os recursos em apenas um "host".
+
+Vamos listar alguns motivos quem podem ser colocados em prática e facilitar a sua vida:
+
+```
+Hardware:
+
+Podemos otimizar os recursos do host.
+
+```
+
+# Contato
+
+Patrick Ernandes [e-mail](suporte@ernandes.info)
+
+Site hospedado através do GitHub e Pages, [documentation](https://help.github.com/categories/github-pages-basics/) .
 
 
 
-# Patrick Ernandes [contact](suporte@ernandes.info)
 
-You can use the [editor on GitHub](https://github.com/patrickernandes/site/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
+### Teste Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
