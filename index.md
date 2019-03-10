@@ -33,7 +33,7 @@ Vamos listar alguns motivos quem podem ser colocados em prática e facilitar a s
 
 [E-mail](suporte@ernandes.info): suporte@ernandes.info
 
-[WhatsApp]: (11)97080-5605 
+WhatsApp: (11)97080-5605 
 
 
 Site hospedado através do GitHub e Pages, [documentation](https://help.github.com/categories/github-pages-basics/) .
