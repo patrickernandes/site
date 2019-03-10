@@ -1,24 +1,27 @@
 # Virtualização de servidores
 
 ## Os motivos para você colocar em prática
-
+```
 Virtualizar seus servidores em prática significa compartilhar os recursos de um único servidor físico com vários servidores virtuais. Um único "host" possibilita ter várias máquinas virtuais, as quais cada uma com seu sistema operacional.  
 É a possibilidade de poder centralizar e gerenciar os recursos em apenas um "host".
 
 Vamos listar alguns motivos quem podem ser colocados em prática e facilitar a sua vida:
 
-```
+
 Hardware:
 
 Podemos otimizar os recursos do host.
 
 ```
 
+
 # Contato
 
-Patrick Ernandes [e-mail](suporte@ernandes.info)
+Patrick Ernandes [e-mail](suporte@ernandes.info) suporte@ernandes.info 
 
 Site hospedado através do GitHub e Pages, [documentation](https://help.github.com/categories/github-pages-basics/) .
+
+
 
 
 
@@ -47,10 +50,3 @@ Syntax highlighted code block
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/patrickernandes/site/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
