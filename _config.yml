@@ -4,16 +4,16 @@ theme: jekyll-theme-slate
 title: Patrick Ernandes
 name: Patrick Ernandes
 description: >
-    Information
-production_url: https://patrickernandes.github.io/site/
-url: "https://ernandes.info" #the base hostname & protocol for your site.
+    Infraestrutura em TI
+baseurl: "/site"
+url: "https://patrickernandes.github.io/site/" #the base hostname & protocol for your site.
 
 # Social:
 facebook: #Add your Facebook
 twitter: patrickernandes
 github: patrickernandes
 
-# Contact form:
+# Contact:
 email: suporte@ernandes.info
 
 # markdown model:
