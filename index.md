@@ -19,6 +19,13 @@ Vamos listar alguns motivos quem podem ser colocados em prática e facilitar a s
 
   Menor investimento em infraestutura.
 
+* Falhas:
+
+  Backup de uma máquinha virtual por completo.
+
+* Gerenciamento:
+
+  Várias máquinas vertuais em apenas um "host" físico.
 
 
 ---
