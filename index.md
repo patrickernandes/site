@@ -7,11 +7,14 @@ Virtualizar seus servidores em prática significa compartilhar os recursos de um
 
 Vamos listar alguns motivos quem podem ser colocados em prática e facilitar a sua vida:
 
-
-Hardware:
-
+- Hardware:
 Podemos otimizar os recursos do host.
 
+- Manutenção:
+Num ambiente virtualizados, podemos transferir maquinas virtuais de um host para outro e programar as paradas sem qualquer interrupição.
+
+- Custos:
+Menor investimento em infraestutura.
 
 
 
@@ -25,28 +28,4 @@ Site hospedado através do GitHub e Pages, [documentation](https://help.github.c
 
 
 
-
-### Teste Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
