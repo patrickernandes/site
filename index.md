@@ -1,3 +1,12 @@
+# Virtualização de servidores
+
+## Os motivos para você colocar em prática
+
+Virtualizar seus servidores em prática significa compartilhar os recursos de um único servidor físico com vários servidores virtuais. Um único "host" possibilita ter várias máquinas virtuais, as quais cada uma com seu sistema operacional.  
+É a possibilidade de poder centralizar e gerenciar os recursos em um único "host". 
+
+
+
 # Patrick Ernandes [contact](suporte@ernandes.info)
 
 You can use the [editor on GitHub](https://github.com/patrickernandes/site/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
