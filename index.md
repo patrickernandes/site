@@ -9,15 +9,15 @@ Vamos listar alguns motivos quem podem ser colocados em prática e facilitar a s
 
 - Hardware:
 
-...Podemos otimizar os recursos do host.
+... Podemos otimizar os recursos do host.
 
 - Manutenção:
 
-...Num ambiente virtualizados, podemos transferir maquinas virtuais de um host para outro e programar as paradas sem qualquer interrupição.
+... Num ambiente virtualizados, podemos transferir maquinas virtuais de um host para outro e programar as paradas sem qualquer interrupição.
 
 - Custos:
 
-...Menor investimento em infraestutura.
+... Menor investimento em infraestutura.
 
 
 
