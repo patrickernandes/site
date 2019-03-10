@@ -8,12 +8,15 @@ Virtualizar seus servidores em prática significa compartilhar os recursos de um
 Vamos listar alguns motivos quem podem ser colocados em prática e facilitar a sua vida:
 
 - Hardware:
+
 Podemos otimizar os recursos do host.
 
 - Manutenção:
+
 Num ambiente virtualizados, podemos transferir maquinas virtuais de um host para outro e programar as paradas sem qualquer interrupição.
 
 - Custos:
+
 Menor investimento em infraestutura.
 
 
