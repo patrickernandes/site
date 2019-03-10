@@ -6,8 +6,8 @@ name: Patrick Ernandes
 description: >
     # Infraestrutura em TI
 baseurl: "/site"
-#url: "https://patrickernandes.github.io/site/" #the base hostname & protocol for your site.
-url: "https://github.com/patrickernandes/site"
+url: "http://ernandes.info"
+#url: "https://github.com/patrickernandes/site"
 
 # Social:
 facebook: #Add your Facebook
