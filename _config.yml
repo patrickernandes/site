@@ -5,7 +5,7 @@ title: Patrick Ernandes
 name: Patrick Ernandes
 description: >
     # Infraestrutura em TI
-baseurl: "/site"
+#baseurl: "/site"
 url: "http://ernandes.info"
 #url: "https://github.com/patrickernandes/site"
 
