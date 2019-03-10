@@ -29,9 +29,10 @@ Vamos listar alguns motivos quem podem ser colocados em prática e facilitar a s
 
 
 ---
-# Contato
+# Contato:
 
-[e-mail](suporte@ernandes.info): suporte@ernandes.info
+[E-mail](suporte@ernandes.info): suporte@ernandes.info
+
 [WhatsApp]: (11)97080-5605 
 
 
