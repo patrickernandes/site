@@ -21,9 +21,10 @@ Menor investimento em infraestutura.
 
 
 
+---
 # Contato
 
-Patrick Ernandes [e-mail](suporte@ernandes.info) suporte@ernandes.info 
+Patrick Ernandes [e-mail](suporte@ernandes.info): suporte@ernandes.info 
 
 Site hospedado através do GitHub e Pages, [documentation](https://help.github.com/categories/github-pages-basics/) .
 
