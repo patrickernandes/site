@@ -4,15 +4,15 @@ theme: jekyll-theme-slate
 title: Patrick Ernandes
 name: Patrick Ernandes
 description: >
-    Infraestrutura em TI
+    # Infraestrutura em TI
 baseurl: "/site"
 #url: "https://patrickernandes.github.io/site/" #the base hostname & protocol for your site.
 url: "https://github.com/patrickernandes/site"
 
 # Social:
 facebook: #Add your Facebook
-twitter: patrickernandes
-github: patrickernandes
+twitter_username: patrickernandes
+github_username: patrickernandes
 
 # Contact:
 email: suporte@ernandes.info
