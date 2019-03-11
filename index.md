@@ -17,15 +17,15 @@ Vamos listar alguns motivos quem podem ser colocados em prática e facilitar a s
 
 * Custos:
 
-  Menor investimento em infraestutura.
+  Menor investimento em infraestrutura.
 
 * Falhas:
 
-  Backup de uma máquinha virtual por completo.
+  Backup de uma máquina virtual por completo.
 
 * Gerenciamento:
 
-  Várias máquinas vertuais em apenas um "host" físico.
+  Várias máquinas virtuais em apenas um "host" físico.
 
 
 ---
@@ -33,11 +33,7 @@ Vamos listar alguns motivos quem podem ser colocados em prática e facilitar a s
 
 E-mail: suporte@ernandes.info
 
-WhatsApp: (11)97080-5605 
-
-
-Site hospedado através do GitHub e Pages, [documentation](https://help.github.com/categories/github-pages-basics/) .
-
+WhatsApp: (11)97080-5605
 
 
 
