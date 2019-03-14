@@ -31,9 +31,9 @@ Vamos listar alguns motivos quem podem ser colocados em prática e facilitar a s
 ---
 # Contato:
 
-E-mail: suporte@ernandes.info
+E-mail: **suporte@ernandes.info**
 
-WhatsApp: (11)97080-5605
+WhatsApp: **(11)97080-5605**
 
 
 
