@@ -20,7 +20,7 @@ Vamos conhecer alguns de seus benefícios:
 * Espaço físico reduzido.
 
 
-Todos estão aderindo a virtualização. 
+Todos estão aderindo a virtualização.
 Pensando nisso, dispomos para você a instalação, configuração e manutenção de um ambiente de virtualização para sua infraestrutura, utilizando soluções opensource, como Xen e KVM, sem custos com licenciamento ou até soluções Microsoft hyper-v e VMware. 
 
 Tenha disponibilidade de forma rápida e padronizada múltiplos ambientes operacionais (sistema operacional e aplicações), em novas máquinas virtuais (VMs), planejando sua capacidade futura e criando ambientes de acordo com suas necessidades, seja em Linux ou Windows.
