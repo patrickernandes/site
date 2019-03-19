@@ -2,30 +2,30 @@
 
 ## Os motivos para você colocar em prática
 
-Virtualizar seus servidores em prática significa compartilhar os recursos de um único servidor físico com vários servidores virtuais. Um único "host" possibilita ter várias máquinas virtuais, as quais cada uma com seu sistema operacional.  
-É a possibilidade de poder centralizar e gerenciar os recursos em apenas um "host".
+Essa tecnologia que nos proporciona a virtualização de servidores é cada vez mais utilizada pelas empresas.
+Com a virtualização, podemos colocar em prática a redução de custos com a infraestrutura e gerenciamento; ainda aumentar a eficiência e disponibilidade. É um ambiente consolidado para manejamento de cargas nos servidores físicos e recuperação rápida em casos de falhas.
 
-Vamos listar alguns motivos quem podem ser colocados em prática e facilitar a sua vida:
+Vamos conhecer alguns de seus benefícios:
 
-* Hardware:
+* Redução de custos com hardware e gerenciamento.
+* Melhor aproveitamento na utilização do servidor físico ("host").
+* Melhor otimização dos recursos.
+* Redução no consumo de energia elétrica.
+* Maior flexibilidade; podemos transferir máquinas virtuais (VM) de um servidor para outro.
+* Programar paradas de servidores sem qualquer interrupção no ambiente.
+* Maior facilidade no gerenciamento.
+* Disponibilidade de uma máquina em menor tempo.
+* Backup de uma máquina virtual por completo. 
+* Várias máquinas virtuais em apenas um “host”.
+* Espaço físico reduzido.
 
-  Podemos otimizar os recursos do host.
 
-* Manutenção:
+Todos estão aderindo a virtualização. 
+Pensando nisso, dispomos para você a instalação, configuração e manutenção de um ambiente de virtualização para sua infraestrutura, utilizando soluções opensource, como Xen e KVM, sem custos com licenciamento e/ou até soluções Microsoft hyper-v e VMware. 
 
-  Num ambiente virtualizados, podemos transferir maquinas virtuais de um host para outro e programar as paradas sem qualquer interrupção.
+Tenha disponibilidade de forma rápida e padronizada múltiplos ambientes operacionais (sistema operacional e aplicações), em novas máquinas virtuais (VMs), planejando sua capacidade futura e criando ambientes de acordo com suas necessidades, seja em Linux ou Windows.
 
-* Custos:
-
-  Menor investimento em infraestrutura.
-
-* Falhas:
-
-  Backup de uma máquina virtual por completo.
-
-* Gerenciamento:
-
-  Várias máquinas virtuais em apenas um "host" físico.
+Entre em contato, vamos conversar e planejar esse ambiente para você e/ou sua empresa!
 
 
 ---
