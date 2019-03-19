@@ -1,6 +1,6 @@
 # Virtualização de servidores
 
-## Os motivos para você colocar em prática
+## Os motivos para você colocar em prática:
 
 Essa tecnologia que nos proporciona a virtualização de servidores é cada vez mais utilizada pelas empresas.
 Com a virtualização, podemos colocar em prática a redução de custos com a infraestrutura e gerenciamento; ainda aumentar a eficiência e disponibilidade.  
@@ -18,7 +18,7 @@ Vamos conhecer alguns de seus benefícios:
 * Disponibilidade de uma máquina em menor tempo.
 * Backup de uma máquina virtual por completo. 
 * Várias máquinas virtuais em apenas um “host”.
-* Espaço físico reduzido.
+* Espaço físico reduzido.  
 
 
 
