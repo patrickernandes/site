@@ -4,7 +4,7 @@
 
 Essa tecnologia que nos proporciona a virtualização de servidores é cada vez mais utilizada pelas empresas.
 Com a virtualização, podemos colocar em prática a redução de custos com a infraestrutura e gerenciamento; ainda aumentar a eficiência e disponibilidade.  
-É um ambiente consolidado para manejamento de cargas nos servidores físicos, facilidade no gerenciamento e recuperação rápida em casos de falhas.
+É um ambiente consolidado para manejo de cargas nos servidores físicos, facilidade no gerenciamento e recuperação rápida em casos de falhas.
 
 Vamos conhecer alguns de seus benefícios:
 
@@ -16,14 +16,14 @@ Vamos conhecer alguns de seus benefícios:
 * Programar paradas de servidores sem qualquer interrupção no ambiente.
 * Maior facilidade no gerenciamento.
 * Disponibilidade de uma máquina em menor tempo.
-* Backup de uma máquina virtual por completo. 
+* Backup de uma máquina virtual por completo.
 * Várias máquinas virtuais em apenas um “host”.
 * Espaço físico reduzido.  
 
 
 
 Todos estão aderindo a virtualização..  
-Pensando nisso, dispomos para você a instalação, configuração e manutenção de um ambiente de virtualização para sua infraestrutura, utilizando soluções opensource, como KVM e Xen, sem custos com licenciamento ou até soluções Microsoft hyper-v e VMware. 
+Pensando nisso, dispomos para você a instalação, configuração e manutenção de um ambiente de virtualização para sua infraestrutura, utilizando soluções opensource, como KVM e Xen, sem custos com licenciamento ou até soluções Microsoft hyper-v e VMware.
 
 Tenha disponibilidade de forma rápida e padronizada múltiplos ambientes operacionais (sistema operacional e aplicações), em novas máquinas virtuais (VMs), planejando sua capacidade futura e criando ambientes de acordo com suas necessidades, seja em Linux ou Windows.
 
@@ -36,8 +36,3 @@ Entre em contato, vamos conversar e planejar esse ambiente para você e/ou sua e
 E-mail: **suporte@ernandes.info**
 
 WhatsApp: **(11)97080-5605**
-
-
-
-
-
