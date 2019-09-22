@@ -4,9 +4,7 @@ title:  "Virtualização de servidores"
 date:   2019-09-20 21:10:45
 categories: virtualizacao linux
 ---
-
-## Os motivos para você colocar em prática:
-
+### Os motivos para você colocar em prática:
 A tecnologia que nos proporciona a virtualização de servidores é cada vez mais utilizada pelas empresas.
 Com a virtualização, podemos colocar em prática a redução de custos com a infraestrutura e gerenciamento; ainda aumentar a eficiência e disponibilidade.  
 É um ambiente consolidado para manejo de cargas nos servidores físicos, facilidade no gerenciamento e recuperação rápida em casos de falhas.
