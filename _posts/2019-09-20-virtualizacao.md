@@ -2,6 +2,7 @@
 layout: post
 title:  "Virtualização de servidores"
 date:   2019-05-20 21:10:45
+sticky: true
 categories: virtualizacao linux
 ---
 ### Os motivos para você colocar em prática: 
