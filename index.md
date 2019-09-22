@@ -11,3 +11,12 @@ layout: home
   {% endif %}
 {% endfor %}
 
+{% for post in paginator.posts %}
+  {% unless post.pinned %}
+    Regular Post.
+    {{ post.title }}
+    {{ post.date }}
+    {{ post.content }}
+  {% endunless %}
+{% endfor %}
+
