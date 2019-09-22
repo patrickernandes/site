@@ -9,6 +9,7 @@ categories: virtualizacao linux
 A tecnologia que nos proporciona a virtualização de servidores é cada vez mais utilizada pelas empresas.
 Com a virtualização, podemos colocar em prática a redução de custos com a infraestrutura e gerenciamento; ainda aumentar a eficiência e disponibilidade.  
 É um ambiente consolidado para manejo de cargas nos servidores físicos, facilidade no gerenciamento e recuperação rápida em casos de falhas.  
+
 Vamos conhecer alguns de seus benefícios:
 
 * Redução de custos com hardware e gerenciamento.
