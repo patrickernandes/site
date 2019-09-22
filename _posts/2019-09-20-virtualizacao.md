@@ -2,8 +2,8 @@
 layout: post
 title:  "Virtualização de servidores"
 date:   2019-05-20 21:10:45
-sticky: true
-categories: virtualizacao linux
+pinned: true
+categories: virtualizacao
 ---
 ### Os motivos para você colocar em prática: 
 A tecnologia que nos proporciona a virtualização de servidores é cada vez mais utilizada pelas empresas.
