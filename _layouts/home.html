@@ -20,7 +20,6 @@ layout: default
     <a class="post-link" href="{{ post.url | relative_url }}">
       <h2 class="post-title">{{ post.title | escape }}</h2>
     </a>
-    <a class="readmore" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">Continue...</a>
     <div class="post-meta">
       <ul class="post-categories">
         {%- for tag in post.categories -%}
@@ -33,6 +32,7 @@ layout: default
       {%- if site.show_excerpts -%}
       {{ post.excerpt }}
       {%- endif -%}
+      <a href="http://ernandes.info/virtualizacao/2019/09/22/smartos.html" target=_blank><input type="button" value="Continue.."></a>
     </div>
   </li>
   {%- endfor -%}
