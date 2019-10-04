@@ -19,6 +19,7 @@ layout: default
     {%- assign date_format = site.plainwhite.date_format | default: "%b %-d, %Y" -%}
     <a class="post-link" href="{{ post.url | relative_url }}">
       <h2 class="post-title">{{ post.title | escape }}</h2>
+      <a class="readmore" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">Read More</a>
     </a>
     <div class="post-meta">
       <ul class="post-categories">
