@@ -20,8 +20,8 @@ layout: default
     <a class="post-link" href="{{ post.url | relative_url }}">
       <h2 class="post-title">{{ post.title | escape }}</h2>
     </a>
-    <div class="post-meta">
     <a class="readmore" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">Continue...</a>
+    <div class="post-meta">
       <ul class="post-categories">
         {%- for tag in post.categories -%}
         <li>{{ tag }}</li>
