@@ -20,7 +20,6 @@ layout: default
     <a class="post-link" href="{{ post.url | relative_url }}">
       <h2 class="post-title">{{ post.title | escape }}</h2>
     </a>
-    <a class="readmore" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">Continue...</a>
     <div class="post-meta">
       <ul class="post-categories">
         {%- for tag in post.categories -%}
@@ -36,6 +35,7 @@ layout: default
     </div>
   </li>
   {%- endfor -%}
+  <a class="readmore" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">Continue...</a>
 </ul>
 
 <!-- <p class="feed-subscribe"><svg class="svg-icon orange">
