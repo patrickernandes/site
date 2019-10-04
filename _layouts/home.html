@@ -25,9 +25,9 @@ layout: default
         {%- for tag in post.categories -%}
         <li>{{ tag }}</li>
         {%- endfor -%}
+        <a class="readmore" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">Continue...</a>
       </ul>
-      <a class="readmore" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">Continue...</a>
-      <div class="post-date"><i class="icon-calendar"></i>{{ post.date | date: date_format }}</div>
+    <div class="post-date"><i class="icon-calendar"></i>{{ post.date | date: date_format }}</div>
     </div>
     <div class="post">
       {%- if site.show_excerpts -%}
