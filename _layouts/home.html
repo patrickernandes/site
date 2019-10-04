@@ -26,6 +26,7 @@ layout: default
         <li>{{ tag }}</li>
         {%- endfor -%}
       </ul>
+      <a class="readmore" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">Continue...</a>
       <div class="post-date"><i class="icon-calendar"></i>{{ post.date | date: date_format }}</div>
     </div>
     <div class="post">
@@ -35,7 +36,6 @@ layout: default
     </div>
   </li>
   {%- endfor -%}
-  <a class="readmore" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">Continue...</a>
 </ul>
 
 <!-- <p class="feed-subscribe"><svg class="svg-icon orange">
