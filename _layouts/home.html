@@ -32,7 +32,7 @@ layout: default
       {%- if site.show_excerpts -%}
       {{ post.excerpt }}
       {%- endif -%}
-      <a href="http://ernandes.info/virtualizacao/2019/09/22/smartos.html" target=_blank><input type="button" value="Continue.."></a>
+      <a class="readmore" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">Continue...</a>
     </div>
   </li>
   {%- endfor -%}
