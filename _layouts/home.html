@@ -21,11 +21,11 @@ layout: default
       <h2 class="post-title">{{ post.title | escape }}</h2>
     </a>
     <div class="post-meta">
+    <a class="readmore" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">Continue...</a>
       <ul class="post-categories">
         {%- for tag in post.categories -%}
         <li>{{ tag }}</li>
         {%- endfor -%}
-        <a class="readmore" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">Continue...</a>
       </ul>
     <div class="post-date"><i class="icon-calendar"></i>{{ post.date | date: date_format }}</div>
     </div>
