@@ -30,6 +30,11 @@ Caso houver algum problema com a nova versão, basta você retornar a utilizar o
 Quanto as *VMs*, todos os dados devem ser armazenados em volumes nos discos locais, utilizando o gerenciador LVM.  
 &nbsp;
 
+## Download:
+
+os links...
+&nbsp;
+
 ## Gravar "image":
 
 Após baixar a image SINO, será necessário gravá-lo em um pendrive.
@@ -154,7 +159,7 @@ on_poweroff='destroy'
 on_reboot  ='restart'  
 on_crash   ='restart'  
 ```
-&nbsp;  
+&nbsp;
 
 Para iniciar a criação da VM, antes vamos criar seu disco, um volume LVM:
 
@@ -173,28 +178,29 @@ Antes de criar a VM, é possivel ajustar o arquivo de acordo com suas necessidad
 A Vm pode ser acessada remotamente via algum aplicativo cliente para VNC. 
 
 Para criar uma VM linux, podemos usar o modelo de configurações abaixo:
-
-`builder='hvm'`  
-`type='hvm'`  
-`arch='x86_64'`  
-`name='linux'`  
-`memory=2048`  
-`vcpus=2`  
-`acpi=1`  
-`vif=[ 'bridge=br0, model=virtio-net' ]`  
-`disk=[ 'phy:/dev/xvg/linux-disk0,hda,w', 'file:/srv/linux.iso,hdc:cdrom,r' ]`  
-`boot='dc'`  
-`sdl=0`  
-`vnc=1`  
-`vnclisten='0.0.0.0'`  
-`stdvga=0`  
-`serial='pty'`  
-`usb=1`  
-`usbdevice='tablet'`  
-`keymap='pt-br'`  
-`on_poweroff='destroy'`  
-`on_reboot  ='restart'`  
-`on_crash   ='restart'`  
+```
+builder='hvm'  
+type='hvm'  
+arch='x86_64'  
+name='linux'  
+memory=2048  
+vcpus=2  
+acpi=1  
+vif=[ 'bridge=br0, model=virtio-net' ]  
+disk=[ 'phy:/dev/xvg/linux-disk0,hda,w', 'file:/srv/linux.iso,hdc:cdrom,r' ]  
+boot='dc'  
+sdl=0  
+vnc=1  
+vnclisten='0.0.0.0'  
+stdvga=0  
+serial='pty'  
+usb=1  
+usbdevice='tablet'  
+keymap='pt-br'  
+on_poweroff='destroy'  
+on_reboot  ='restart'  
+on_crash   ='restart'  
+```
 
 Todas as configurações devem ser alteradas de acordo com suas necessidades.    
 &nbsp;  
