@@ -109,7 +109,6 @@ Para o processo de virtualização, o XEN disponibiliza dois modos para virtuali
 
 Para *PV*, podemos criar VM's Debian, pois aproveita partes do sistema SINO, já que o mesmo é baseado no Debian.  
 Para *HVM*, já é possivel criar maquinas virtuais Linux e também Windows.  
-&nbsp;
 
 ### PV
 
@@ -123,7 +122,6 @@ Para acessar a mesma:
 `# xl console teste1`
 
 Assim temos nossa primeira VM criada.  
-&nbsp;
 
 ### HVM
 
@@ -132,29 +130,30 @@ Com virtualização HVM, podemos criar um ambiente todo virtualizado,  máquinas
  
 Como exemplo, temos o arquivo 'windowsexample.cfg' que serve de modelo parara criar uma VM Windows.
 Abaixo, temos a configuração proposta:  
- 
-`builder='hvm'`  
-`type='hvm'`  
-`arch='x86_64'`  
-`viridian=1`  
-`name='windows'`  
-`memory=4096`  
-`vcpus=2`  
-`acpi=1`  
-`vif=[ 'bridge=br0, model=e1000' ]`  
-`disk=[ 'phy:/dev/xvg/windows-disk0,hda,w', 'file:/srv/windows.iso,hdc:cdrom,r' ]`  
-`boot='dc'`  
-`sdl=0`  
-`vnc=1`  
-`vnclisten='0.0.0.0'`  
-`stdvga=0`  
-`serial='pty'`  
-`usb=1`  
-`usbdevice='tablet'`  
-`keymap='pt-br'`  
-`on_poweroff='destroy'`  
-`on_reboot  ='restart'`  
-`on_crash   ='restart'`  
+``` 
+builder='hvm'    
+type='hvm' 
+arch='x86_64'  
+viridian=1  
+name='windows'  
+memory=4096  
+vcpus=2  
+acpi=1  
+vif=[ 'bridge=br0, model=e1000' ]  
+disk=[ 'phy:/dev/xvg/windows-disk0,hda,w', 'file:/srv/windows.iso,hdc:cdrom,r' ]  
+boot='dc'  
+sdl=0  
+vnc=1  
+vnclisten='0.0.0.0'  
+stdvga=0  
+serial='pty'  
+usb=1  
+usbdevice='tablet'  
+keymap='pt-br'  
+on_poweroff='destroy'  
+on_reboot  ='restart'  
+on_crash   ='restart'  
+```
 &nbsp;  
 
 Para iniciar a criação da VM, antes vamos criar seu disco, um volume LVM:
@@ -196,9 +195,8 @@ Para criar uma VM linux, podemos usar o modelo de configurações abaixo:
 `on_poweroff='destroy'`  
 `on_reboot  ='restart'`  
 `on_crash   ='restart'`  
-&nbsp;  
 
-* Todas as configurações devem ser alteradas de acordo com suas necessidades.    
+Todas as configurações devem ser alteradas de acordo com suas necessidades.    
 &nbsp;  
   
 ## Material de apoio.
