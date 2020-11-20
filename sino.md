@@ -32,7 +32,7 @@ Quanto as *VMs*, todos os dados devem ser armazenados em volumes nos discos loca
 
 ## Download:
 
-os links...
+Os links...  
 &nbsp;
 
 ## Gravar "image":
@@ -53,7 +53,7 @@ Ao iniciar o *boot* pelo pendrive, vai ser apresentado 3 opções de inicializa�
 **SINO on ram** - carrega o sistema na memoria RAM.  
 **SINO advanced** - em caso de problemas com video.  
 
-* Recomendo em ambiente de produção, utilizar a opção **SINO on ram**, pois com o sistema carregado na memória RAM será mais rapido e ainda oferecer a possibilidade de remover o pendrive.   
+Recomendo em ambiente de produção, utilizar a opção **SINO on ram**, pois com o sistema carregado na memória RAM será mais rapido e ainda oferecer a possibilidade de remover o pendrive.   
 &nbsp;
 
 ## Acesso:
@@ -203,7 +203,7 @@ on_crash   ='restart'
 ```
 
 Todas as configurações devem ser alteradas de acordo com suas necessidades.    
-&nbsp;  
+&nbsp;
   
 ## Material de apoio.
 
