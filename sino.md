@@ -6,14 +6,11 @@ permalink: /sino/
 
 # S I N O  
 
-
 Um sistema Linux em LiveCD para virtualização com XEN.  
 É baseado no Debian GNU/Linux Buster com *hypervisor* XEN e gerenciador de discos LVM.  
 
 Você pode inicializar o sistema sem modificar nenhum arquivo no disco rígido, nao é necessário instalá-lo.  
 Tem suporte de inicialização por bios legacy ou UEFI.  
-
-Para realizar o acesso, você deve usar o usuário "root" e a senha "root".  
 
 Terei a honra de receber qualquer sugestão ou dúvidas via e-mail **suporte@ernandes.info**  
 &nbsp;
@@ -25,14 +22,27 @@ Obrigado,
 ## Indrodução:
  
 A ideia de criar este sistema para virtualização foi devido a dificuldade de realizar um *rollback* de uma instalação após o sistema apresentar problemas depois de um *upgrade*.  
-SINO é uma "image" ISO que funciona como LiveCD, então você não precisa instalá-lo, apenas gravá-lo em um pendrive para *boot*. Sempre que for necessário realizar um upgrade, uma *image* nova dele é disponibilizada e você deverá gravá-lo em um novo pendrive.  
+SINO é uma "image" ISO que funciona como LiveCD, então você não precisa instalá-lo, apenas gravá-lo em um pendrive para *boot*. Ele não possui interface gráfica, seu gerenciamente é tudo via *command line*.  
+Sempre que for necessário realizar um upgrade, uma *image* nova dele é disponibilizada e você deverá gravá-lo em um novo pendrive.  
 Caso houver algum problema com a nova versão, basta você retornar a utilizar o pendrive anterior.  
 Quanto as *VMs*, todos os dados devem ser armazenados em volumes nos discos locais, utilizando o gerenciador LVM.  
 &nbsp;
 
-## Download:
+## Changelog:
 
-Os links...  
+Segue o link com os dados referente ao changelog: 
+
+Changelog: [arquivo](https://www.dropbox.com/s/wbx9jg0agjqf0ls/ChangeLog.txt?dl=0)    
+Última alteração: 12/11/2020
+&nbsp;
+
+
+## Arquivos:
+
+Segue o link para downloads das *ISOs* e seus respectivos *checksum*. Todos os arquivos estão em uma única pasta:
+
+Arquivos: [pasta](https://www.dropbox.com/sh/9hip5a385kqctar/AAAi8raYbK24QyQPASG47vtta?dl=0)   
+Última versão: sino-20201112.iso  
 &nbsp;
 
 ## Gravar "image":
