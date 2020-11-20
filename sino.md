@@ -28,7 +28,7 @@ A ideia de criar este sistema para virtualização foi devido a dificuldade de r
 SINO é uma "image" ISO que funciona como LiveCD, então você não precisa instalá-lo, apenas gravá-lo em um pendrive para *boot*. Sempre que for necessário realizar um upgrade, uma *image* nova dele é disponibilizada e você deverá gravá-lo em um novo pendrive.  
 Caso houver algum problema com a nova versão, basta você retornar a utilizar o pendrive anterior.  
 Quanto as *VMs*, todos os dados devem ser armazenados em volumes nos discos locais, utilizando o gerenciador LVM.  
-
+&nbsp;
 
 ## Gravar "image":
 
@@ -47,7 +47,7 @@ Ao iniciar o *boot* pelo pendrive, vai ser apresentado 3 opções de inicializa�
 **SINO on ram** - carrega o sistema na memoria RAM.  
 **SINO advanced** - em caso de problemas com video.  
 
-* Recomendo em ambiente de produção, utilizar a opção **SINO on ram**, pois os sistema carregado na memória RAM será mais rapido e ainda oferecer a possibilidade de remover o pendrive.   
+* Recomendo em ambiente de produção, utilizar a opção **SINO on ram**, pois com o sistema carregado na memória RAM será mais rapido e ainda oferecer a possibilidade de remover o pendrive.   
 
 
 ## Acesso:
