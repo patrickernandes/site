@@ -126,7 +126,7 @@ Para acessar a mesma:
 
 `# xl console teste1`
 
-Assim temos nossa primeira VM criada.  
+Assim temos nossa primeira VM criada, em modo PV.  
 
 ### HVM
 
@@ -159,7 +159,6 @@ on_poweroff='destroy'
 on_reboot  ='restart'  
 on_crash   ='restart'  
 ```
-&nbsp;
 
 Para iniciar a criação da VM, antes vamos criar seu disco, um volume LVM:
 
@@ -169,7 +168,7 @@ Agora, vamos criar nossa VM:
 
 `# cp /root/windowsexample.cfg /srv/windows.cfg`  
 
-Antes de criar a VM, é possivel ajustar o arquivo de acordo com suas necessidades e depois:  
+Antes de criar a VM e iniciá-la, é possivel ajustar o arquivo de acordo com suas necessidades e depois:  
 
 `# xl create /srv/windows.cfg`  
 
@@ -204,7 +203,7 @@ on_crash   ='restart'
 
 Todas as configurações devem ser alteradas de acordo com suas necessidades.    
 &nbsp;
-  
+
 ## Material de apoio.
 
 Alguns links para ajudar com os gerenciadores LVM e XEN:  
