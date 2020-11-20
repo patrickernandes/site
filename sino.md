@@ -5,7 +5,7 @@ permalink: /sino/
 ---
 
 # S I N O  
-&nbsp;
+
 
 Um sistema Linux em LiveCD para virtualização com XEN.  
 É baseado no Debian GNU/Linux Buster com *hypervisor* XEN e gerenciador de discos LVM.  
@@ -13,9 +13,9 @@ Um sistema Linux em LiveCD para virtualização com XEN.
 Você pode inicializar o sistema sem modificar nenhum arquivo no disco rígido, nao é necessário instalá-lo.  
 Tem suporte de inicialização por bios legacy ou UEFI.  
 
-Terei a honra de receber qualquer sugestão ou dúvidas via e-mail **suporte@ernandes.info**  
-
 Para realizar o acesso, você deve usar o usuário "root" e a senha "root".  
+
+Terei a honra de receber qualquer sugestão ou dúvidas via e-mail **suporte@ernandes.info**  
 &nbsp;
 
 Obrigado,
@@ -40,6 +40,7 @@ Após baixar a image SINO, será necessário gravá-lo em um pendrive.
 SINO tem suporte a *boot* por bios legacy ou UEFI.  
  
 ## Boot:
+&nbsp;
  
 Ao iniciar o *boot* pelo pendrive, vai ser apresentado 3 opções de inicialização:  
 
