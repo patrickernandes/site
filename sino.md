@@ -22,7 +22,7 @@ Obrigado,
  
 ----
 
-## Indrodução
+## Indrodução:
  
 A ideia de criar este sistema para virtualização foi devido a dificuldade de realizar um *rollback* de uma instalação após o sistema apresentar problemas depois de um *upgrade*.  
 SINO é uma "image" ISO que funciona como LiveCD, então você não precisa instalá-lo, apenas gravá-lo em um pendrive para *boot*. Sempre que for necessário realizar um upgrade, uma *image* nova dele é disponibilizada e você deverá gravá-lo em um novo pendrive.  
@@ -38,10 +38,10 @@ Após baixar a image SINO, será necessário gravá-lo em um pendrive.
 `# sync`
     
 SINO tem suporte a *boot* por bios legacy ou UEFI.  
- 
-## Boot:
 &nbsp;
- 
+
+## Inicialização:
+
 Ao iniciar o *boot* pelo pendrive, vai ser apresentado 3 opções de inicialização:  
 
 **SINO** - *boot* normal.  
@@ -49,19 +49,19 @@ Ao iniciar o *boot* pelo pendrive, vai ser apresentado 3 opções de inicializa�
 **SINO advanced** - em caso de problemas com video.  
 
 * Recomendo em ambiente de produção, utilizar a opção **SINO on ram**, pois com o sistema carregado na memória RAM será mais rapido e ainda oferecer a possibilidade de remover o pendrive.   
-
+&nbsp;
 
 ## Acesso:
 
 Por padrão, o acesso é feito através do usuário *root* e senha *root*.  
 Ainda é possivel realizar acesso remoto via *ssh*.  
-
+&nbsp;
 
 ## Rede:
 
 O processo de *boot* possibilita que o sistema configure automaticamente seu IP, em caso dele estar em uma rede com *dhcp* habilitado.  
 Por padrão, a interface de rede utilizada é *br0*, que também atua como *bridge* para as máquinas virtuais.  
-
+&nbsp;
 
 ## Disco:
 
@@ -97,7 +97,7 @@ Com a configuração de armazenamento pronta, vamos iniciar o script de disco qu
 `# srv start`
 
 Qualquer material que temos que manter a salvo, deve ser armazenado na pasta "/srv".  
-
+&nbsp;
 
 ## Máquinas virtuais:
 
