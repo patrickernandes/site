@@ -7,7 +7,7 @@ permalink: /sino/
 # S I N O  
 
 Um sistema Linux em LiveCD para virtualização com XEN.  
-É baseado no Debian GNU/Linux Buster com *hypervisor* XEN e gerenciador de discos LVM.  
+É baseado no **Debian GNU/Linux Buster** com *hypervisor* XEN e gerenciador de discos LVM.  
 
 Você pode inicializar o sistema sem modificar nenhum arquivo no disco rígido, nao é necessário instalá-lo.  
 Tem suporte de inicialização por bios legacy ou UEFI.  
@@ -26,6 +26,8 @@ SINO é uma "image" ISO que funciona como LiveCD, então você não precisa inst
 Sempre que for necessário realizar um upgrade, uma *image* nova dele é disponibilizada e você deverá gravá-lo em um novo pendrive.  
 Caso houver algum problema com a nova versão, basta você retornar a utilizar o pendrive anterior.  
 Quanto as *VMs*, todos os dados devem ser armazenados em volumes nos discos locais, utilizando o gerenciador LVM.  
+
+![Sino!](sino/sino_logon.png "Sino acesso")
 &nbsp;
 
 ## Changelog:
@@ -92,24 +94,29 @@ Vamos usar como exemplo, um disco de 20GB, como *sda*:
 
 Agora, vamos criar o grupo de volumes chamado **xvg** que será utilizado para armazenar os volumes lógicos.  
 Mas antes, vamos criar um volume físico:  
-
-`# pvcreate /dev/sda1`
+```
+pvcreate /dev/sda1
+```
 
 Criando o grupo de volumes *xvg*:  
-
-`# vgcreate xvg /dev/sda1`
+```
+vgcreate xvg /dev/sda1
+```
 
 Com o grupo criado, vamos criar um volume denominado **xvol** de 10G para armazenar arquivos ISO's e as configurações das máquinas virtuais.  
-
-`# lvcreate -n xvol -L 10G xvg`
+```
+lvcreate -n xvol -L 10G xvg
+```
 
 Devemos formatar o volume *xvol* com *ext4*:  
-
-`# mkfs.ext4 /dev/xvg/xvol`
+```
+mkfs.ext4 /dev/xvg/xvol
+```
 
 Com a configuração de armazenamento pronta, vamos iniciar o script de disco que carrega o volume *xvol* na pasta "/srv":  
-
-`# srv start`
+```
+srv start
+```
 
 Qualquer material que temos que manter a salvo, deve ser armazenado na pasta "/srv".  
 &nbsp;
@@ -128,8 +135,9 @@ Para *HVM*, já é possivel criar maquinas virtuais Linux e também Windows.
 ### PV
 
 Como exemplo, vamos criar uma máquina virtual Debian em *PV*:
-
-`# xen-create-image --hostname=teste1 --dist=buster --pygrub --vcpus=1 --memory=512mb --lvm=xvg --size=2g --dhcp`
+```
+xen-create-image --hostname=teste1 --dist=buster --pygrub --vcpus=1 --memory=512mb --lvm=xvg --size=2g --dhcp
+```
 
 Uma VM de hostname "teste1" será criada.
 Para acessar a mesma:
@@ -144,7 +152,8 @@ Assim temos nossa primeira VM criada, em modo PV.
 Com virtualização HVM, podemos criar um ambiente todo virtualizado,  máquinas Linux e Windows.  
 É o modo mais recomendado para criar suas máquinas virtuais.   
  
-Como exemplo, temos o arquivo 'windowsexample.cfg' que serve de modelo parara criar uma VM Windows.
+Como exemplo, temos o arquivo 'windowsexample.cfg' que serve de modelo parara criar uma VM Windows.  
+Voce pode utilizar os editores *vim* ou *nano* para criar ou alterar arquivos.
 Abaixo, temos a configuração proposta:  
 ``` 
 builder='hvm'    
@@ -172,8 +181,9 @@ on_crash   ='restart'
 ```
 
 Para iniciar a criação da VM, antes vamos criar seu disco, um volume LVM:
-
-`# lvcreate -n windows-disk0 -L 60G xvg`
+```
+lvcreate -n windows-disk0 -L 60G xvg
+```
 
 Agora, vamos criar nossa VM:  
 ```
@@ -232,5 +242,3 @@ https://wiki.archlinux.org/index.php/LVM
 https://bnuti.com.br/como-utilizar-o-lvm-no-linux
 
  
-
-
