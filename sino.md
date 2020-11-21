@@ -2,6 +2,8 @@
 layout: page
 title: Sino
 permalink: /sino/
+description: > # this means to ignore newlines until "show_exerpts:"
+  S I N O - LiveCD sistema para virtualização.
 ---
 
 # S I N O  
