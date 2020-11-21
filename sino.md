@@ -234,13 +234,13 @@ Todas as configurações devem ser alteradas de acordo com suas necessidades.
 Alguns links com informações para ajudar com os gerenciadores LVM e XEN:  
 
 Para uso do XEN, temos os links abaixo:  
-https://xenproject.org  
-https://wiki.xenproject.org/wiki/Main_Page  
-https://wiki.xenproject.org/wiki/Xen_Project_Beginners_Guide
+[https://xenproject.org](https://xenproject.org)  
+[https://wiki.xenproject.org/wiki/Main_Page](https://wiki.xenproject.org/wiki/Main_Page)  
+[https://wiki.xenproject.org/wiki/Xen_Project_Beginners_Guide](https://wiki.xenproject.org/wiki/Xen_Project_Beginners_Guide)
 
 Para LVM:  
-https://en.wikipedia.org/wiki/Logical_Volume_Manager_(Linux)  
-https://wiki.archlinux.org/index.php/LVM    
-https://bnuti.com.br/como-utilizar-o-lvm-no-linux
+[https://en.wikipedia.org/wiki/Logical_Volume_Manager_(Linux)](https://en.wikipedia.org/wiki/Logical_Volume_Manager_(Linux))  
+[https://wiki.archlinux.org/index.php/LVM](https://wiki.archlinux.org/index.php/LVM)    
+[https://bnuti.com.br/como-utilizar-o-lvm-no-linux](https://bnuti.com.br/como-utilizar-o-lvm-no-linux)
 
  
