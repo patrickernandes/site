@@ -246,6 +246,6 @@ Para LVM:
 &nbsp;
 
 * * *
-2019 - 2020 | SINO  
-Linux® is a registered trademark of Linus Torvalds.    
-Windows® is a trademark of Microsoft Corporation. 
+<font size="2">2019 - 2020 | SINO  <font size="2">  
+<font size="2">Linux® is a registered trademark of Linus Torvalds.  </font>    
+<font size="2">Windows® is a trademark of Microsoft Corporation. <font size="2">
