@@ -29,7 +29,7 @@ Sempre que for necessário realizar um upgrade, uma *image* nova dele é disponi
 Caso houver algum problema com a nova versão, basta você retornar a utilizar o pendrive anterior.  
 Quanto as *VMs*, todos os dados devem ser armazenados em volumes nos discos locais, utilizando o gerenciador LVM.  
 
-![Sino!](/sino/sino_logon.png "Sino acesso..")
+![Sino!](/sino/sino_logon.png "Sino acesso..")  
 &nbsp;
 
 ## Changelog:
@@ -37,9 +37,8 @@ Quanto as *VMs*, todos os dados devem ser armazenados em volumes nos discos loca
 Segue o link com os dados referente ao changelog: 
 
 Changelog: [arquivo](https://www.dropbox.com/s/wbx9jg0agjqf0ls/ChangeLog.txt?dl=0)    
-Última alteração: 12/11/2020
+Última alteração: 12/11/2020  
 &nbsp;
-
 
 ## Arquivos:
 
