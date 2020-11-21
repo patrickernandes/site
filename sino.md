@@ -27,7 +27,7 @@ A ideia de criar este sistema para virtualização foi devido a dificuldade de r
 SINO é uma "image" ISO que funciona como LiveCD, então você não precisa instalá-lo, apenas gravá-lo em um pendrive para *boot*. Ele não possui interface gráfica, seu gerenciamento é todo via *linha de comando*.  
 Sempre que for necessário realizar um upgrade, uma *image* nova dele é disponibilizada e você deverá gravá-lo em um novo pendrive.  
 Caso houver algum problema com a nova versão, basta você retornar a utilizar o pendrive anterior.  
-Quanto as *VMs*, todos os dados devem ser armazenados em volumes nos discos locais, utilizando o gerenciador LVM.  
+Quanto as VMs, todos os dados devem ser armazenados em volumes nos discos locais, utilizando o gerenciador LVM.  
 
 ![Sino!](/sino/sino_logon.png "Sino acesso..")  
 &nbsp;
@@ -48,13 +48,14 @@ Arquivos: [pasta](https://www.dropbox.com/sh/9hip5a385kqctar/AAAi8raYbK24QyQPASG
 Última versão: sino-20201112.iso  
 &nbsp;
 
-## Gravar "image iso":
+## Gravar image ISO:
 
 Após baixar a image SINO, será necessário gravá-lo em um pendrive.
 ```
-dd if=sino-* of=/dev/sdX    
+dd if=sino-20201112.iso of=/dev/sdX    
 sync
 ```
+* /dev/sdX deve ser alterado de acordo com seu dispositivo USB.  
 
 SINO tem suporte a *boot* por bios legacy ou UEFI.  
 &nbsp;
@@ -192,14 +193,19 @@ Agora, vamos criar nossa VM:
 cp /root/windowsexample.cfg /srv/windows.cfg  
 ```
 
-Antes de criar a VM e iniciá-la, é possivel ajustar o arquivo de acordo com suas necessidades e depois:  
+Antes de criar a VM e iniciá-la, devemos ajustar o arquivo de de configuração de acordo com suas necessidades e depois:  
 ```
 xl create /srv/windows.cfg  
 ```
 
 * Não esqueça da image ISO de instalação do Windows.  
 
-A Vm pode ser acessada remotamente via algum aplicativo cliente para VNC. 
+A VM pode ser acessada remotamente via algum aplicativo cliente para VNC.  
+Para melhor desempenho em VMs Windows, sugiro instalar o pacote de drivers *XCP-ng Windows PV Tools*.  
+Novos drivers serão instalados, com isso seu desempenho tem uma melhora significativa.  
+Para baixar o pacote, segue o link:  
+
+[https://github.com/xcp-ng/win-pv-drivers/releases](https://github.com/xcp-ng/win-pv-drivers/releases)  
 
 Para criar uma VM linux, podemos usar o modelo de configurações abaixo:
 ```
