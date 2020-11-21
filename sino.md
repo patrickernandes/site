@@ -249,4 +249,9 @@ Para LVM:
 [https://wiki.archlinux.org/index.php/LVM](https://wiki.archlinux.org/index.php/LVM)    
 [https://bnuti.com.br/como-utilizar-o-lvm-no-linux](https://bnuti.com.br/como-utilizar-o-lvm-no-linux)
 
- 
+&nbsp;
+
+* * *
+###### 2019 - 2020 | SINO
+###### Linux® is a registered trademark of Linus Torvalds.  
+###### Windows® is a trademark of Microsoft Corporation. 
