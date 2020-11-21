@@ -229,9 +229,9 @@ on_crash   ='restart'
 Todas as configurações devem ser alteradas de acordo com suas necessidades.    
 &nbsp;
 
-## Material de apoio.
+## Material de apoio:
 
-Alguns links para ajudar com os gerenciadores LVM e XEN:  
+Alguns links com informações para ajudar com os gerenciadores LVM e XEN:  
 
 * Para uso do XEN, temos os links abaixo:  
 https://xenproject.org  
