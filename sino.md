@@ -12,7 +12,7 @@ Um sistema Linux em LiveCD para virtualização com XEN.
 Você pode inicializar o sistema sem modificar nenhum arquivo no disco rígido, nao é necessário instalá-lo.  
 Tem suporte de inicialização por bios legacy ou UEFI.  
 
-Terei a honra de receber qualquer sugestão ou dúvidas via e-mail **suporte@ernandes.info**  
+Todo o trabalho se encontra em desenvolvimento, sujeito a mudanças e correções, então teremos a honra de receber qualquer sugestão ou dúvidas via e-mail **suporte@ernandes.info**  
 &nbsp;
 
 Obrigado,
@@ -133,8 +133,9 @@ Como exemplo, vamos criar uma máquina virtual Debian em *PV*:
 
 Uma VM de hostname "teste1" será criada.
 Para acessar a mesma:
-
-`# xl console teste1`
+```
+xl console teste1
+```
 
 Assim temos nossa primeira VM criada, em modo PV.  
 
@@ -175,12 +176,14 @@ Para iniciar a criação da VM, antes vamos criar seu disco, um volume LVM:
 `# lvcreate -n windows-disk0 -L 60G xvg`
 
 Agora, vamos criar nossa VM:  
-
-`# cp /root/windowsexample.cfg /srv/windows.cfg`  
+```
+cp /root/windowsexample.cfg /srv/windows.cfg  
+```
 
 Antes de criar a VM e iniciá-la, é possivel ajustar o arquivo de acordo com suas necessidades e depois:  
-
-`# xl create /srv/windows.cfg`  
+```
+xl create /srv/windows.cfg  
+```
 
 * Não esqueça da image ISO de instalação do Windows.  
 
