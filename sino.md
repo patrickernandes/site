@@ -21,7 +21,7 @@ Obrigado,
  
 ----
 
-## Indrodução:
+## Introdução:
  
 A ideia de criar este sistema para virtualização foi devido a dificuldade de realizar um *rollback* de uma instalação após o sistema apresentar problemas depois de um *upgrade*.  
 SINO é uma "image" ISO que funciona como LiveCD, então você não precisa instalá-lo, apenas gravá-lo em um pendrive para *boot*. Ele não possui interface gráfica, seu gerenciamente é tudo via *command line*.  
