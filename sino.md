@@ -48,7 +48,7 @@ Arquivos: [pasta](https://www.dropbox.com/sh/9hip5a385kqctar/AAAi8raYbK24QyQPASG
 Última versão: sino-20201112.iso  
 &nbsp;
 
-## Gravar "image":
+## Gravar "image iso":
 
 Após baixar a image SINO, será necessário gravá-lo em um pendrive.
 ```
