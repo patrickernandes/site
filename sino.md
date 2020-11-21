@@ -51,10 +51,11 @@ Arquivos: [pasta](https://www.dropbox.com/sh/9hip5a385kqctar/AAAi8raYbK24QyQPASG
 ## Gravar "image":
 
 Após baixar a image SINO, será necessário gravá-lo em um pendrive.
+```
+dd if=sino-* of=/dev/sdX    
+sync
+```
 
-`# dd if=sino-* of=/dev/sdX`    
-`# sync`
-    
 SINO tem suporte a *boot* por bios legacy ou UEFI.  
 &nbsp;
 
