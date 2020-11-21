@@ -95,7 +95,7 @@ Vamos usar como exemplo, um disco de 20GB, como *sda*:
 
 * como saída, teremos a partição "/dev/sda1" de 20GB.  
 
-Agora, vamos criar o grupo de volumes chamado **xvg** que será utilizado para armazenar os volumes lógicos.  
+Agora, vamos criar o grupo de volumes chamado **xvg** que será utilizado para armazenar os volumes lógicos. Por padrão, SINO utiliza o grupo LVM de nomenclatura **xvg**.  
 Mas antes, vamos criar um volume físico:  
 ```
 pvcreate /dev/sda1
@@ -106,7 +106,7 @@ Criando o grupo de volumes *xvg*:
 vgcreate xvg /dev/sda1
 ```
 
-Com o grupo criado, vamos criar um volume denominado **xvol** de 10G para armazenar arquivos ISO's e as configurações das máquinas virtuais.  
+Com o grupo criado, vamos criar um volume denominado **xvol** de 10G para armazenar arquivos ISOs e as configurações das máquinas virtuais. Também como padrão, SINO utiliza o volume de nomenclatura **xvol** para armazernamento permanente.     
 ```
 lvcreate -n xvol -L 10G xvg
 ```
