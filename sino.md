@@ -46,7 +46,7 @@ Changelog: [arquivo](https://www.dropbox.com/s/wbx9jg0agjqf0ls/ChangeLog.txt?dl=
 
 Após baixar a image SINO, será necessário gravá-lo em um pendrive.
 ```
-dd if=sino-20201112.iso of=/dev/sdX    
+dd if=sino-20201112.iso of=/dev/sdX bs=1M    
 sync
 ```
 * /dev/sdX deve ser alterado de acordo com seu dispositivo USB.  
