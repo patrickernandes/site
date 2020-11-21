@@ -64,8 +64,8 @@ SINO tem suporte a *boot* por bios legacy ou UEFI.
 Ao iniciar o *boot* pelo pendrive, vai ser apresentado 3 opções de inicialização:  
 
 **SINO** - *boot* normal.  
-**SINO on ram** - carrega o sistema na memoria RAM.  
-**SINO advanced** - em caso de problemas com video.  
+**SINO on ram** - carrega o sistema na memória RAM.  
+**SINO advanced** - em caso de problemas com vídeo.  
 
 Recomendo em ambiente de produção, utilizar a opção **SINO on ram**, pois com o sistema carregado na memória RAM será mais rapido e ainda oferecer a possibilidade de remover o pendrive.   
 &nbsp;
@@ -79,7 +79,7 @@ Ainda é possivel realizar acesso remoto via *ssh*.
 ## Rede:
 
 O processo de *boot* possibilita que o sistema configure automaticamente seu IP, em caso dele estar em uma rede com *dhcp* habilitado.  
-Por padrão, a interface de rede utilizada é *br0*, que também atua como *bridge* para as máquinas virtuais.  
+Por padrão, a interface de rede utilizada é *br0*, que atua como *bridge* para as máquinas virtuais.  
 &nbsp;
 
 ## Disco:
