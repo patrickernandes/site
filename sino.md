@@ -36,7 +36,7 @@ Quanto as VMs, todos os dados devem ser armazenados em volumes nos discos locais
 
 Segue o link com os dados referente ao changelog: 
 
-Changelog: [arquivo](https://www.dropbox.com/s/wbx9jg0agjqf0ls/ChangeLog.txt?dl=0)    
+Changelog: [arquivo](https://www.dropbox.com/s/wbx9jg0agjqf0ls/ChangeLog.txt?dl=0){:target="_blank"}    
 Última alteração: 12/11/2020  
 &nbsp;
 
@@ -44,7 +44,7 @@ Changelog: [arquivo](https://www.dropbox.com/s/wbx9jg0agjqf0ls/ChangeLog.txt?dl=
 
 Segue o link para downloads das *ISOs* e seus respectivos *checksum*. Todos os arquivos estão em uma única pasta:
 
-Arquivos: [pasta](https://www.dropbox.com/sh/9hip5a385kqctar/AAAi8raYbK24QyQPASG47vtta?dl=0)   
+Arquivos: [pasta](https://www.dropbox.com/sh/9hip5a385kqctar/AAAi8raYbK24QyQPASG47vtta?dl=0){:target="_blank"}   
 Última versão: sino-20201112.iso  
 &nbsp;
 
