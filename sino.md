@@ -9,7 +9,7 @@ description: > # this means to ignore newlines until "show_exerpts:"
 # S I N O  
 
 Um sistema Linux em LiveCD para virtualização com XEN.  
-É baseado no **Debian GNU/Linux Buster** com *hypervisor* XEN e gerenciador de discos LVM.  
+É baseado no **Debian GNU/Linux** com *hypervisor* XEN e gerenciador de discos LVM.  
 
 Você pode inicializar o sistema sem modificar nenhum arquivo no disco rígido, nao é necessário instalá-lo.  
 Tem suporte de inicialização por bios legacy ou UEFI.  
@@ -37,9 +37,9 @@ Quanto as VMs, todos os dados devem ser armazenados em volumes nos discos locais
 Segue o link para downloads das *ISOs* e seus respectivos *checksum*. Todos os arquivos estão em uma única pasta:
 
 Arquivos: [pasta](https://www.dropbox.com/sh/9hip5a385kqctar/AAAi8raYbK24QyQPASG47vtta?dl=0){:target="_blank"}   
-Última versão: sino-20201112.iso  
+Última versão: sino-20201127.iso  
 Changelog: [arquivo](https://www.dropbox.com/s/wbx9jg0agjqf0ls/ChangeLog.txt?dl=0){:target="_blank"}    
-Última alteração: 12/11/2020  
+Última alteração: 27/11/2020  
 &nbsp;
 
 ## Gravar image ISO:
@@ -74,7 +74,7 @@ Ainda é possivel realizar acesso remoto via *ssh*.
 ## Rede:
 
 O processo de *boot* possibilita que o sistema configure automaticamente seu IP, em caso dele estar em uma rede com *dhcp* habilitado.  
-Por padrão, a interface de rede utilizada é *br0*, que atua como *bridge* para as máquinas virtuais.  
+Por padrão, a interface de rede utilizada é *xenbr0*, que atua como *bridge* para as máquinas virtuais.  
 &nbsp;
 
 ## Disco:
