@@ -161,7 +161,7 @@ name='windows'
 memory=4096  
 vcpus=2  
 acpi=1  
-vif=[ 'bridge=br0, model=e1000' ]  
+vif=[ 'bridge=xenbr0, model=e1000' ]  
 disk=[ 'phy:/dev/xvg/windows-disk0,hda,w', 'file:/srv/windows.iso,hdc:cdrom,r' ]  
 boot='dc'  
 sdl=0  
@@ -210,7 +210,7 @@ name='linux'
 memory=2048  
 vcpus=2  
 acpi=1  
-vif=[ 'bridge=br0, model=virtio-net' ]  
+vif=[ 'bridge=xenbr0, model=virtio-net' ]  
 disk=[ 'phy:/dev/xvg/linux-disk0,hda,w', 'file:/srv/linux.iso,hdc:cdrom,r' ]  
 boot='dc'  
 sdl=0  
