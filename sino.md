@@ -38,7 +38,7 @@ Segue o link para downloads das *ISOs* e seus respectivos *checksum*. Todos os a
 
 Arquivos: [pasta](https://www.dropbox.com/sh/9hip5a385kqctar/AAAi8raYbK24QyQPASG47vtta?dl=0){:target="_blank"}   
 Última versão: sino-20201210.iso  
-Changelog: [arquivo](http://ernandes.info/ChangeLog.txt){:target="_blank"}    
+Changelog: [arquivo](http://ernandes.info/sino/ChangeLog.txt){:target="_blank"}    
 Última alteração: 10/12/2020  
 &nbsp;
 
