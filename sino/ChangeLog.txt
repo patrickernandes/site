@@ -1,4 +1,25 @@
 +--------------------------+
+sex dez 18 08:39:00 -03 2020
+* upgrade libxencall1
+* upgrade libxendevicemodel1
+* upgrade libxenevtchn1
+* upgrade libxenforeignmemory1
+* upgrade libxengnttab1
+* upgrade libxenmisc4.11
+* upgrade libxenstore3.0
+* upgrade libxentoolcore1
+* upgrade libxentoollog1
+* upgrade xen-hypervisor-4.11-amd64
+* upgrade xen-hypervisor-common
+* upgrade xen-system-amd64
+* upgrade xen-utils-4.11
+* upgrade xen-utils-common
+* upgrade xenstore-utils
+* adicionado pacote 'irqbalance'
+* parâmetro de boot "dom0_mem" alterado o valor 1024M para 2048M.                    
+
+sino-20201218.iso
++--------------------------+
 qui dez 10 20:06:04 -03 2020
 * atualização para Debian 10.7.
 * upgrade apt

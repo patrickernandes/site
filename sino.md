@@ -37,9 +37,9 @@ Quanto as VMs, todos os dados devem ser armazenados em volumes nos discos locais
 Segue o link para downloads das *ISOs* e seus respectivos *checksum*. Todos os arquivos estão em uma única pasta:
 
 Arquivos: [pasta](https://www.dropbox.com/sh/9hip5a385kqctar/AAAi8raYbK24QyQPASG47vtta?dl=0){:target="_blank"}   
-Última versão: sino-20201210.iso  
+Última versão: sino-20201218.iso  
 Changelog: [arquivo](http://ernandes.info/sino/ChangeLog.txt){:target="_blank"}    
-Última alteração: 10/12/2020  
+Última alteração: 18/12/2020  
 &nbsp;
 
 ## Gravar image ISO:
@@ -82,12 +82,12 @@ Por padrão, a interface de rede utilizada é *xenbr0*, que atua como *bridge* p
 Discos locais devem ser utilizados para armazenamento das configurações das maquinas virtuais e seus discos.  
 Para isso, vamos utilizar o gerenciador de volumes LVM.  
 
-Vamos usar como exemplo, um disco de 20GB, como *sda*:  
+Vamos usar como exemplo, um disco de 120GB como *sda*:  
 
 *1* - criar uma partição.  
 *2* - partição deverá ser tipo "Linux LVM".  
 
-* como saída, teremos a partição "/dev/sda1" de 20GB.  
+* como saída, teremos a partição "/dev/sda1" de 120GB.  
 
 Agora, vamos criar o grupo de volumes chamado **xvg** que será utilizado para armazenar os volumes lógicos. Por padrão, SINO utiliza o grupo LVM de nomenclatura **xvg**.  
 Mas antes, vamos criar um volume físico:  
@@ -100,9 +100,9 @@ Criando o grupo de volumes *xvg*:
 vgcreate xvg /dev/sda1
 ```
 
-Com o grupo criado, vamos criar um volume denominado **xvol** de 10G para armazenar arquivos ISOs e as configurações das máquinas virtuais. Também como padrão, SINO utiliza o volume de nomenclatura **xvol** para armazernamento permanente.     
+Com o grupo criado, vamos criar um volume denominado **xvol** de 20G para armazenar arquivos ISOs e as configurações das máquinas virtuais. Também como padrão, SINO utiliza o volume de nomenclatura **xvol** para armazernamento permanente.     
 ```
-lvcreate -n xvol -L 10G xvg
+lvcreate -n xvol -L 20G xvg
 ```
 
 Devemos formatar o volume *xvol* com *ext4*:  
@@ -116,6 +116,28 @@ srv start
 ```
 
 Qualquer material que temos que manter a salvo, deve ser armazenado na pasta "/srv".  
+&nbsp;
+
+## Swap:
+
+Para melhorar o desempenho de memória RAM, vamos adicionar um volume para *swap*. Aqui, como exemplo, vamos criar um volume de 10GB:
+```
+lvcreate -n swap -L 10G xvg
+```
+
+Vamos formatar o volume *swap*:
+```
+mkswap -L swap /dev/xvg/swap
+```
+
+Agora, ativar o volume:
+```
+swapon /dev/xvg/swap
+```
+
+Com isso, teremos uma partição em *swap* para auxiliar a memória:  
+
+![Swap](/sino/swap.png "Sino memória swap.")    
 &nbsp;
 
 ## Máquinas virtuais:
@@ -159,7 +181,7 @@ arch='x86_64'
 viridian=1  
 name='windows'  
 memory=4096  
-vcpus=2  
+vcpus=4  
 acpi=1  
 vif=[ 'bridge=xenbr0, model=e1000' ]  
 disk=[ 'phy:/dev/xvg/windows-disk0,hda,w', 'file:/srv/windows.iso,hdc:cdrom,r' ]  
