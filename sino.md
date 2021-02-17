@@ -11,18 +11,18 @@ description: > # this means to ignore newlines until "show_exerpts:"
 Um sistema Linux em LiveCD para virtualização com XEN.  
 É baseado no **Debian GNU/Linux** com *hypervisor* XEN e gerenciador de discos LVM.  
 
-Você pode inicializar o sistema sem modificar nenhum arquivo no disco rígido, nao é necessário instalá-lo.  
+Você pode inicializar o sistema sem modificar nenhum arquivo no disco rígido, não sendo necessário instalá-lo.  
 Tem suporte de inicialização por bios legacy ou UEFI.  
 
 Todo o trabalho se encontra em desenvolvimento, sujeito a mudanças e correções, então teremos a honra de receber qualquer sugestão ou dúvidas via e-mail **suporte@ernandes.info**  
 &nbsp;
 
 Obrigado,
- 
+
 ----
 
 ## Introdução:
- 
+
 A ideia de criar este sistema para virtualização foi devido a dificuldade de realizar um *rollback* de uma instalação após o sistema apresentar problemas depois de um *upgrade*.  
 SINO é uma "image" ISO que funciona como LiveCD, então você não precisa instalá-lo, apenas gravá-lo em um pendrive para *boot*. Ele não possui interface gráfica, seu gerenciamento é todo via *linha de comando*.  
 Sempre que for necessário realizar um upgrade, uma *image* nova dele é disponibilizada e você deverá gravá-lo em um novo pendrive.  
@@ -37,9 +37,9 @@ Quanto as VMs, todos os dados devem ser armazenados em volumes nos discos locais
 Segue o link para downloads das *ISOs* e seus respectivos *checksum*. Todos os arquivos estão em uma única pasta:
 
 Arquivos: [pasta](https://www.dropbox.com/sh/9hip5a385kqctar/AAAi8raYbK24QyQPASG47vtta?dl=0){:target="_blank"}   
-Última versão: sino-20210208.iso  
+Última versão: sino-20210217.iso  
 Changelog: [arquivo](http://ernandes.info/sino/ChangeLog.txt){:target="_blank"}    
-Última alteração: 08/02/2021  
+Última alteração: 17/02/2021  
 &nbsp;
 
 ## Gravar image ISO:
@@ -60,15 +60,16 @@ Ao iniciar o *boot* pelo pendrive, vai ser apresentado 3 opções de inicializa�
 
 **SINO** - *boot* normal.  
 **SINO on ram** - carrega o sistema na memória RAM.  
-**SINO advanced** - em caso de problemas com vídeo.  
+**SINO advanced** - em caso de problemas com vídeo framebuffer.   
+**SINO advanced on ram** - carregamento na memória RAM sem video em framebuffer.  
 
-Recomendo em ambiente de produção, utilizar a opção **SINO on ram**, pois com o sistema carregado na memória RAM será mais rapido e ainda oferecer a possibilidade de remover o pendrive.   
+Recomendo em ambiente de produção, utilizar a opção **"SINO on ram"**, pois com o sistema carregado na memória RAM será mais rápido e ainda oferecer a possibilidade de remover o pendrive.   
 &nbsp;
 
 ## Acesso:
 
 Por padrão, o acesso é feito através do usuário *root* e senha *root*.  
-Ainda é possivel realizar acesso remoto via *ssh*.  
+Ainda é possível realizar acesso remoto via *ssh*.  
 &nbsp;
 
 ## Rede:
@@ -100,7 +101,7 @@ Criando o grupo de volumes *xvg*:
 vgcreate xvg /dev/sda1
 ```
 
-Com o grupo criado, vamos criar um volume denominado **xvol** de 20G para armazenar arquivos ISOs e as configurações das máquinas virtuais. Também como padrão, SINO utiliza o volume de nomenclatura **xvol** para armazernamento permanente.     
+Com o grupo criado, vamos criar um volume denominado **xvol** de 20G para armazenar arquivos ISOs e as configurações das máquinas virtuais. Também como padrão, SINO utiliza o volume de nomenclatura **xvol** para armazenamento permanente.     
 ```
 lvcreate -n xvol -L 20G xvg
 ```
@@ -148,8 +149,8 @@ Para o processo de virtualização, o XEN disponibiliza dois modos para virtuali
 
 * HVM - todo hardware é virtualizado. Todo o hardware para máquina virtual tem que ser virtualizado, uma virtualização completa.  
 
-Para *PV*, podemos criar VM's Debian, pois aproveita partes do sistema SINO, já que o mesmo é baseado no Debian.  
-Para *HVM*, já é possivel criar maquinas virtuais Linux e também Windows.  
+Para *PV*, podemos criar VMs Debian, pois aproveita partes do sistema SINO, já que o mesmo é baseado no Debian.  
+Para *HVM*, já é possível criar maquinas virtuais Linux e também Windows.  
 
 ### PV
 
@@ -170,10 +171,11 @@ Assim temos nossa primeira VM criada, em modo PV.
 
 Com virtualização HVM, podemos criar um ambiente todo virtualizado,  máquinas Linux e Windows.  
 É o modo mais recomendado para criar suas máquinas virtuais.   
- 
+
 Como exemplo, temos o arquivo 'windowsexample.cfg' que serve de modelo parara criar uma VM Windows.  
-Voce pode utilizar os editores *vim* ou *nano* para criar ou alterar arquivos.
+Você pode utilizar os editores *vim* ou *nano* para criar ou alterar arquivos.
 Abaixo, temos a configuração proposta:  
+
 ``` 
 builder='hvm'    
 type='hvm' 
