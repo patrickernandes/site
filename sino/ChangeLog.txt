@@ -1,4 +1,12 @@
 +--------------------------+
+qui fev 18 21:00:29 -03 2021
+* upgrade libdns-export1104
+* upgrade libisc-export1100
+* upgrade libssl1.1
+* Correção de problema, mais um na detecção de rede do script de boot.
+
+sino-20210218.iso
++--------------------------+
 qua fev 17 10:41:05 -03 2021
 * Correção na detecção de rede no script de boot.
 * scripts de boot movidos para a pasta "/opt/sino/etc/boot.d".
