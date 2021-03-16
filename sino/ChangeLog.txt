@@ -1,3 +1,10 @@
+ter mar 16 15:45:18 -03 2021
+* upgrade libzstd1
+* upgrade screen
+* adicionado pacote "duf" para informar dados de disco em uso; semelhante ao "df".
+* correção no tempo de detecção da placa de rede durante o boot. Aumentado o valor de espera para 8 segundos.
+
+sino-20210316.iso
 +--------------------------+
 qui fev 18 21:00:29 -03 2021
 * upgrade libdns-export1104
