@@ -1,4 +1,4 @@
----
+﻿---
 layout: page
 title: Sino
 permalink: /sino/
@@ -220,7 +220,7 @@ Agora, só iniciar a VM:
 ```
 vm start teste
 ```
-![Start](/sino/vm_art.png "Sino start.")    
+![Start](/sino/vm_start.png "Sino start.")    
 
 Para conferir seu funcionamento, só executar:
 ```
