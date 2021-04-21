@@ -5,6 +5,7 @@ description: > # this means to ignore newlines until "show_exerpts:"
   Esse é meu site pessoal onde divulgo meu trabalho.
 show_excerpts: true # set to true to show excerpts on the homepage
 future: true  ##Publish posts or collection documents with a future date.
+timezone: America/Sao_Paulo
 
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
