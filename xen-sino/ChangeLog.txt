@@ -1,0 +1,169 @@
+ter mar 16 15:45:18 -03 2021
+* upgrade libzstd1
+* upgrade screen
+* adicionado pacote "duf" para informar dados de disco em uso; semelhante ao "df".
+* correção no tempo de detecção da placa de rede durante o boot. Aumentado o valor de espera para 8 segundos.
+
+sino-20210316.iso
++--------------------------+
+qui fev 18 21:00:29 -03 2021
+* upgrade libdns-export1104
+* upgrade libisc-export1100
+* upgrade libssl1.1
+* Correção de problema, mais um na detecção de rede do script de boot.
+
+sino-20210218.iso
++--------------------------+
+qua fev 17 10:41:05 -03 2021
+* Correção na detecção de rede no script de boot.
+* scripts de boot movidos para a pasta "/opt/sino/etc/boot.d".
+
+sino-20210217.iso
++--------------------------+
+seg fev  8 08:29:28 -03 2021
+* upgrade libp11-kit0
+* upgrade tzdata
+* upgrade linux-image-amd64 to 4.19.0-14
+* removido cpufrequtils
+* removido libcpufreq0
+* parâmetro de boot "dom0_max_vcpus=1-4" adicionado.
+* scripts de boot movidos para a pasta "/usr/local/etc/boot.d".
+* alrerações e correções nos scripts de boot.
+* atualizado Debian para 10.8.
+
+sino-20210208.iso
++--------------------------+
+sex dez 18 08:39:00 -03 2020
+* upgrade libxencall1
+* upgrade libxendevicemodel1
+* upgrade libxenevtchn1
+* upgrade libxenforeignmemory1
+* upgrade libxengnttab1
+* upgrade libxenmisc4.11
+* upgrade libxenstore3.0
+* upgrade libxentoolcore1
+* upgrade libxentoollog1
+* upgrade xen-hypervisor-4.11-amd64
+* upgrade xen-hypervisor-common
+* upgrade xen-system-amd64
+* upgrade xen-utils-4.11
+* upgrade xen-utils-common
+* upgrade xenstore-utils
+* adicionado pacote 'irqbalance'
+* parâmetro de boot "dom0_mem" alterado o valor 1024M para 2048M.                    
+
+sino-20201218.iso
++--------------------------+
+qui dez 10 20:06:04 -03 2020
+* atualização para Debian 10.7.
+* upgrade apt
+* upgrade base-files
+* upgrade libapt-pkg5.0
+* upgrade libjpeg62-turbo
+* upgrade libsqlite3-0
+* upgrade libssl1.1
+* upgrade libsystemd0
+* upgrade libudev1
+* upgrade libxencall1
+* upgrade libxendevicemodel1
+* upgrade libxenevtchn1
+* upgrade libxenforeignmemory1
+* upgrade libxengnttab1
+* upgrade libxenmisc4.11
+* upgrade libxenstore3.0
+* upgrade libxentoolcore1
+* upgrade libxentoollog1
+* upgrade linux-image-amd64
+* upgrade systemd-sysv
+* upgrade systemd
+* upgrade udev
+* upgrade xen-hypervisor-4.11-amd64
+* upgrade xen-hypervisor-common
+* upgrade xen-system-amd64
+* upgrade xen-utils-4.11
+* upgrade xen-utils-common
+* upgrade xenstore-utils
+* adicionado pacote 'cron'
+* adicionado pacote 'dstat'
+* correções nos scripts de boot.
+* alterado parâmetro 'COMPANY' para 'DOMAIN'.
+* logs do sistema agora são apresentados no terminal tty2.
+* novo script 'check_disk_space' para verificar a capacidade de disco em uso. Ele vai gerar log de alerta caso a pasta '/srv' passar de 80% de uso.
+
+sino-20201210.iso
++--------------------------+
+qua dez  2 18:09:07 -03 2020
+* correções gerais nos scripts de boot. 
+
+sino-20201202.iso
++--------------------------+
+sex nov 27 18:04:02 -03 2020
+* upgrade libgssapi-krb5-2
+* upgrade libk5crypto3
+* upgrade libkrb5-3
+* upgrade libkrb5support0
+* adicionado pacote 'hdparm'
+* adicionado pacote 'ntfs-3g'
+* nomenclatura da interface de rede bridge "br0" alterado para "xenbr0".
+* correções gerais nos scripts. 
+
+* sino-20201127.iso
++--------------------------+
+qui nov 12 18:00:46 -03 2020
+* adicionado pacote 'intel-microcode'.
+* adicionado pacote 'iucode-tool'.
+* adicionado pacote 'firmware-qlogic'.
+* adicionado pacote 'firmware-bnx2'.
+* nomenclatura do grupo padrão de volumes LVM "xvol" alterado para "xvg".
+* nomenclatura do volume padrão LVM "data" alterado para "xvol".
+* correções gerais nos scripts. 
+
+* sino-20201112.iso
++--------------------------+
+qua nov 11 10:00:46 -03 2020
+* correções de português.
+* correção da função 'virt-check' do script 'vm'.
+* nova opção 'status' para o script 'disk'.
+
+* sino-20201111.iso 
++--------------------------+
+ter nov 10 12:10:00 -03 2020
+* script "vm" para gerenciamento das VMs funcionando.
+* script "stop_all_vm" criado para desligar todas as VMs.
+* script "net" agora mostra o IP do dispositivo de rede "bridge" em uso pelo host físico.
+* adicionado arquivo "linuxexample.cfg" como modelo HVM de uma VM linux.
+* correções gerais.
+
+* sino-20201110.iso
++--------------------------+
+seg nov  9 15:10:44 -03 2020
+* adicionado pacote 'firmware-misc-nonfree' com mais drivers.
+* adicionado 'layout us' para teclado.
+* aumento no limite de VMs com parametro "loop_max=64".
+* no bash, foi adicionado "alias lt='ls -lhtr'".
+* correções nos scripts 'vm' e 'net'.
+
+* sino-20201109.iso
++--------------------------+
+qui out 29 18:27:02 -03 2020
+* correção no arquivo modelo de configuração para VM Windows.
+
+* sino-20201029.iso 
++--------------------------+
+qua out 28 09:50:29 -03 2020
+* upgrade tzdata.
+* renomeado o grupo de volumes LVM padrão de 'xen-vol' para 'xvol'. 
+* correção no script 'disk' para automontar o volume 'data' na pasta '/srv'.
+* script 'net' para iniciar a rede teve correções.
+* na pasta '/root', adicionado 2 arquivos de exemplo para configurações.
+
+* sino-20201028.iso
++--------------------------+
+sáb out 24 16:46:06 -03 2020
+* kernel 4.19.0-12-amd64
+* xen 4.11.4
+* lvm 2.03.02(2)
+* qemu 3.1.0
+
+* primeira versao do SINO: sino-20201024
++--------------------------+
