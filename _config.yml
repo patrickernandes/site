@@ -52,7 +52,7 @@ header_pages:
   - sino.md 
 
 # Build settings
-remote_theme: plainwhite
+theme: plainwhite
 
 plugins:
   - jekyll-seo-tag
