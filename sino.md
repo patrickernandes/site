@@ -124,7 +124,7 @@ Qualquer material que temos que manter a salvo, deve ser armazenado na pasta "/s
 
 ## Swap:
 
-Para melhorar o desempenho de memória RAM, vamos adicionar um volume para **swap**. 
+Para melhorar o desempenho de memória RAM, vamos adicionar um volume para **swap**.   
 Aqui, como exemplo, vamos criar um volume de 4GB, com nome **swap**:
 ```
 lvcreate -n swap -L 4G lvg
