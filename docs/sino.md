@@ -183,7 +183,7 @@ Usage: vm [opções..]
 
 ## Criando sua primeira VM:
 
-Com mão na massa vamoo criar a primeira VM. Como exemplo, ela vai se chamar 'teste'.  
+Com mão na massa vamos criar a primeira VM. Como exemplo, ela vai se chamar 'teste'.  
 Mas antes, vamos criar um disco para ela, um volume LVM com tamanho de 5GB:
 ```
 vm disk create 5
