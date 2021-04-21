@@ -104,7 +104,7 @@ Criando o grupo de volumes *lvg*:
 vgcreate lvg /dev/sda1
 ```
 
-Com o grupo criado, vamos criar um volume denominado **srv** de 20G para armazenar arquivos ISOs e as configurações das máquinas virtuais. Também como padrão, SINO utiliza o volume de nomenclatura **srv** para armazenamento permanente.     
+Com o grupo criado, vamos criar um volume denominado **srv** de 20G para armazenar arquivos ISOs e as configurações das máquinas virtuais. Também como padrão, SINO utiliza o volume de nomenclatura **srv** para armazenamento permanente.  
 ```
 lvcreate -n srv -L 20G lvg
 ```
@@ -147,7 +147,7 @@ Com isso, teremos uma partição em **swap** para auxiliar a memória RAM:
 ## Máquinas virtuais:
 
 Para o processo de virtualização, no ambiente SINO temos a ferramenta **vm** para administrar as máquinas virtuais (VM).  
-Lembrando, toda administração é via *cli*, que pode ser utilizada remotamente via conexão *ssh*.   
+Lembrando, toda administração é via *cli*, que pode ser utilizada remotamente via conexão *ssh*.  
 Com *vm*, podemos criar discos e máquinas virtuais, administra-las, como também remove-las.  
 É possível virtualizar VMs Linux e Windows.  
 A seguir, o menu com as opções disponíveis para a ferramenta *vm*:  
@@ -189,7 +189,7 @@ Mas antes, vamos criar um disco para ela, um volume LVM com tamanho de 5GB:
 vm disk create 5
 ```
 Temos a saída abaixo:  
-![Disk](/sino/vm_disk_create.png "Sino disk create.")    
+![Disk](/sino/vm_disk_create.png "Sino disk create.")  
 &nbsp;
 
 Agora, vamos criar a VM:
@@ -197,7 +197,7 @@ Agora, vamos criar a VM:
 vm create teste
 ```
 Saída:  
-![Create](/sino/vm_create.png "Sino create.")    
+![Create](/sino/vm_create.png "Sino create.")  
 &nbsp;
 
 Um arquivo com nomenclatura "teste.vm" é criado na pasta */srv*.  
@@ -205,7 +205,7 @@ Vamos ver os detalhes da VM:
 ```
 vm show teste
 ```
-![Show](/sino/vm_show.png "Sino show.")    
+![Show](/sino/vm_show.png "Sino show.")  
 &nbsp;
 
 Vamos ajustar a VM com alguns parâmetros, como sistema operacional, quantidade de cpu e memória, disco e image ISO de boot. 
@@ -220,7 +220,7 @@ Agora, só iniciar a VM:
 ```
 vm start teste
 ```
-![Start](/sino/vm_start.png "Sino start.")    
+![Start](/sino/vm_art.png "Sino start.")    
 
 Para conferir seu funcionamento, só executar:
 ```
