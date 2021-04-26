@@ -1,3 +1,10 @@
+seg 26 abr 2021 10:10:06 -03
+* Correção no script vm.
+* Adicionado o script 'fetch' para agilizar o download de algumas images ISO.
+* Adicionado o pacote iftop
+
+sino-20210426.iso
++--------------------------+
 ter 20 abr 2021 18:27:27 -03
 * Atualização da base para Debian 11.
 * Adoção do QEMU/KVM como sistema de virtualização.
