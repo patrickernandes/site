@@ -7,7 +7,9 @@
 828734;Fedora 33 Server;Fedora-Server-netinst-x86_64-33-1.2.iso;http://fedora.c3sl.ufpr.br/linux/releases/33/Server/x86_64/iso/Fedora-Server-netinst-x86_64-33-1.2.iso;1f1f018e78f0cc23d08db0c85952344ea5c200e67b672da5b07507c066a52ccf
 927666;Oracle Linux 8.3;x86_64-boot.iso;https://yum.oracle.com/ISOS/OracleLinux/OL8/u3/x86_64/x86_64-boot.iso;81ad1eb002f160db90d5e7857ab6632b3e87bcfc77e82fb79edab58f16fda53f
 894045;Oracle Linux 8.3;OracleLinux-R8-U3-x86_64-dvd.iso;https://yum.oracle.com/ISOS/OracleLinux/OL8/u3/x86_64/OracleLinux-R8-U3-x86_64-dvd.iso;771e383adfd5406d1a360ff24822011a88cbb45b6019e2f1095758c46a406aaa
+862639;Oracle Linux 8.4;x86_64-boot.iso;http://yum.oracle.com/ISOS/OracleLinux/OL8/u4/x86_64/x86_64-boot.iso;b92b49553690420053b32dff54c7cce89463eb98c35a1b57706b7408a2ec24bc
 024913;AlmaLinux OS;AlmaLinux-8.3-x86_64-boot.iso;http://alma.sao.mirror.heficed.com/8.3/isos/x86_64/AlmaLinux-8.3-x86_64-boot.iso;08fd99fab31277ea3710bfc1ccb8a7229522af5d3987d5b062739cb0dc3b5e3e
 720524;AlmaLinux OS;AlmaLinux-8.3-x86_64-dvd.iso;http://alma.sao.mirror.heficed.com/8.3/isos/x86_64/AlmaLinux-8.3-x86_64-dvd.iso;a2ca2ff3de3e7c0707b042994e1947a8ce81d16ba5c869d6ecf8f4d4dd88eee2
+997588;AlmaLinux OS;AlmaLinux-8.4-x86_64-minimal.iso;http://almalinux.mirror.letscloud.io/8.4/isos/x86_64/AlmaLinux-8.4-x86_64-minimal.iso;b4572a1bf791ed8e7469d6ab0beece1d1eacc5ab39bb8b8f4bf78111a20b5c23
 585684;Alpine Linux;alpine-virt-3.13.5-x86_64.iso;https://dl-cdn.alpinelinux.org/alpine/v3.13/releases/x86_64/alpine-virt-3.13.5-x86_64.iso;e6bbcab275b704bc6521781f2342fff084700b458711fdf315a5816d9885943c
 
