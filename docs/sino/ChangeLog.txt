@@ -1,3 +1,11 @@
+sex 11 jun 2021 18:08:41 -03
+* Correções nos scripts de boot.
+* Correções no programa 'sino'.
+* Atualização do kernel.
+* Adicionado o pacote pigz.
+
+sino-20210611.iso
++--------------------------+
 dom 30 mai 2021 17:54:56 -03
 * Correções nos scripts de boot.
 * Correções no programa 'sino'.
