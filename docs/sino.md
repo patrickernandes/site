@@ -37,9 +37,9 @@ Quanto as VMs, todos os dados devem ser armazenados em volumes nos discos locais
 Segue o link para downloads das *ISOs* e seus respectivos *checksum*. Todos os arquivos estão em uma única pasta:
 
 Arquivos: [pasta](https://www.dropbox.com/sh/9hip5a385kqctar/AAAi8raYbK24QyQPASG47vtta?dl=0){:target="_blank"}   
-Última versão: sino-20210611.iso  
+Última versão: sino-20210930.iso  
 Changelog: [arquivo](http://ernandes.info/sino/ChangeLog.txt){:target="_blank"}    
-Última alteração: 11/06/2021  
+Última alteração: 30/09/2021  
 &nbsp;
 
 ## Gravar image ISO:

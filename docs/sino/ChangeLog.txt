@@ -1,8 +1,13 @@
-sex 11 jun 2021 18:08:41 -03
+sino-20210930.iso
++--------------------------+
+qui 30 set 2021 14:56:24 -03
+* atualização completa para nova versão Debian 11.
 * Correções nos scripts de boot.
 * Correções no programa 'sino'.
 * Atualização do kernel.
 * Adicionado o pacote pigz.
+* adicionado pacote smartmontools.
+* atualização de pacotes diversos.
 
 sino-20210611.iso
 +--------------------------+
