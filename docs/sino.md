@@ -37,9 +37,9 @@ Quanto as VMs, todos os dados devem ser armazenados em volumes nos discos locais
 Segue o link para downloads das *ISOs* e seus respectivos *checksum*. Todos os arquivos estão em uma única pasta:
 
 Arquivos: [pasta](https://www.dropbox.com/sh/9hip5a385kqctar/AAAi8raYbK24QyQPASG47vtta?dl=0){:target="_blank"}   
-Última versão: sino-20210930.iso  
+Última versão: sino-20211029.iso  
 Changelog: [arquivo](http://ernandes.info/sino/ChangeLog.txt){:target="_blank"}    
-Última alteração: 30/09/2021  
+Última alteração: 29/10/2021  
 &nbsp;
 
 ## Gravar image ISO:
@@ -72,7 +72,7 @@ Recomendo em ambiente de produção, utilizar a opção **"SINO on ram"**, pois 
 ## Acesso:
 
 Por padrão, o acesso é feito através do usuário *root* e senha *root*.  
-Ainda é possível realizar acesso remoto via *ssh*.  
+Uma dica, é realizar acesso remoto via *ssh*.  
 &nbsp;
 
 ## Rede:
@@ -111,7 +111,7 @@ lvcreate -n srv -L 20G lvg
 
 Devemos formatar o volume *srv* com *ext4*:  
 ```
-mkfs.ext4 /dev/lvg/srv
+mkfs.ext4 -L SRV /dev/lvg/srv
 ```
 
 Com a configuração de armazenamento pronta, vamos iniciar o script de disco que carrega o volume *srv* para a pasta "/srv":  
@@ -131,7 +131,7 @@ lvcreate -n swap -L 4G lvg
 
 Vamos formatar o volume *swap*:
 ```
-mkswap -L swap /dev/lvg/swap
+mkswap -L SWAP /dev/lvg/swap
 ```
 
 Agora, ativar o volume:
@@ -175,7 +175,7 @@ Usage: vm [opções..]
   set <name> --vnc <yes,no>         - disponibilizar conexão VNC em uma VM.
   start <name>                      - inicializar a VM.
   stop <name>                       - finalizar a VM.
-  stop <name> --force               - finalizar de maneira forçada a VM.
+  stop <name> --force               - finalizar de maneira interrupta a VM.
   monitor <name>                    - conectar a console do QEMU para interagir com a VM.
   top                               - monitor de consumo das VMs.
 ```
@@ -183,10 +183,10 @@ Usage: vm [opções..]
 
 ## Criando sua primeira VM:
 
-Com mão na massa vamos criar a primeira VM. Como exemplo, ela vai se chamar 'teste'.  
-Mas antes, vamos criar um disco para ela, um volume LVM com tamanho de 5GB:
+Com mão na massa vamos criar a primeira VM. Como exemplo, ela vai se chamar 'vm1'.  
+Mas antes, vamos criar um disco para ela, um volume LVM com tamanho de 10GB:
 ```
-vm disk create 5
+vm disk create 10
 ```
 Temos a saída abaixo:  
 ![Disk](/sino/vm_disk_create.png "Sino disk create.")  
@@ -194,31 +194,31 @@ Temos a saída abaixo:
 
 Agora, vamos criar a VM:
 ```
-vm create teste
+vm create vm1
 ```
 Saída:  
 ![Create](/sino/vm_create.png "Sino create.")  
 &nbsp;
 
-Um arquivo com nomenclatura "teste.vm" é criado na pasta */srv*.  
+Um arquivo com nomenclatura "vm1.vm" é criado na pasta */srv*.  
 Vamos ver os detalhes da VM:
 ```
-vm show teste
+vm show vm1
 ```
 ![Show](/sino/vm_show.png "Sino show.")  
 &nbsp;
 
 Vamos ajustar a VM com alguns parâmetros, como sistema operacional, quantidade de cpu e memória, disco e image ISO de boot. 
 ```
-vm set teste --os linux --cpu 2 --ram 1024
-vm set teste --disk0 vdisk-8bsncdkgcva37msoaeg2
-vm set teste --iso /srv/firmware-10.9.0-amd64-netinst.iso
+vm set vm1 --os linux --cpu 2 --ram 2048
+vm set vm1 --disk0 vdisk-zs5h6qp09rb5xmwvlq3lk8md
+vm set vm1 --iso /srv/AlmaLinux-8.4-x86_64-boot.iso
 ```
 ![Show](/sino/vm_show_configurado.png "Sino show after.")  
 
 Agora, só iniciar a VM:
 ```
-vm start teste
+vm start vm1
 ```
 ![Start](/sino/vm_start.png "Sino start.")    
 
@@ -232,11 +232,13 @@ Com um cliente VNC, você pode se conectar remotamente a VM:
 ```
 vnc <ip_sino>:<vnc_port>
 ```
+![Vnc](/sino/vm_vnc.png "Sino vnc.")  
 
 Para desligar a VM:
 ```
-vm stop teste
+vm stop vm1
 ```
+![Stop](/sino/vm_stop.png "Sino stop.")    
 
 Assim temos nossa primeira VM criada!   
 Uma coisa a ressaltar, em VMs Windows, fica sugestivo a instalação do agente QEMU através do pacote  **virtio-win**. 
@@ -259,6 +261,6 @@ Para LVM:
 &nbsp;
 
 * * *
-<font size="2">2019 - 2020 - S I N O.  </font>  
+<font size="2">2019 - 2021 - S I N O.  </font>  
 <font size="2">| Linux® is a registered trademark of Linus Torvalds.</font>  
 <font size="2">| Windows® is a trademark of Microsoft Corporation.</font>
