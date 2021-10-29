@@ -16,3 +16,4 @@
 937342;Debian 11;debian-11.1.0-amd64-netinst.iso;https://cdimage.debian.org/cdimage/release/current/amd64/iso-cd/debian-11.1.0-amd64-netinst.iso;8488abc1361590ee7a3c9b00ec059b29dfb1da40f8ba4adf293c7a30fa943eb2
 847825;Alpine Linux;alpine-virt-3.14.2-x86_64.iso;https://dl-cdn.alpinelinux.org/alpine/v3.14/releases/x86_64/alpine-virt-3.14.2-x86_64.iso;fcba6ecc8419da955d326a12b2f6d9d8f885a420a1112e0cf1910914c4c814a7
 828980;Fedora 34 Server;Fedora-Server-netinst-x86_64-34-1.2.iso;https://download.fedoraproject.org/pub/fedora/linux/releases/34/Server/x86_64/iso/Fedora-Server-netinst-x86_64-34-1.2.iso;e1a38b9faa62f793ad4561b308c31f32876cfaaee94457a7a9108aaddaeec406
+

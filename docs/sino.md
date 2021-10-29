@@ -240,7 +240,7 @@ vm stop vm1
 ```
 ![Stop](/sino/vm_stop.png "Sino stop.")    
 
-Assim temos nossa primeira VM criada!   
+Assim temos nossa VM criada!   
 Uma coisa a ressaltar, em VMs Windows, fica sugestivo a instalação do agente QEMU através do pacote  **virtio-win**. 
 &nbsp;
 
