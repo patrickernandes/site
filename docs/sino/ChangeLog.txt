@@ -1,8 +1,9 @@
-sino-20211029.iso
+sino-20211030.iso
 +--------------------------+
-sex 29 out 2021 18:58:47 -03
+sáb 30 out 2021 10:28:47 -03
 * Correções nos scripts de boot.
 * Correções no programa 'sino'.
+* Adicionado o pacote psmisc.
 * Adicionado o pacote nmon.
 * Adicionado o pacote nethogs.
 * atualização de pacotes diversos.
