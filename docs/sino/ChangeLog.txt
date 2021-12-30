@@ -1,3 +1,10 @@
+sino-20211230.iso
++--------------------------+
+qui 30 dez 2021 08:27:53 -03
+* Upgrade da base para Debian 11.2.
+* Correções nos scripts de boot.
+* Correções no programa 'sino'.
+
 sino-20211030.iso
 +--------------------------+
 sáb 30 out 2021 10:28:47 -03
