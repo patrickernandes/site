@@ -34,19 +34,19 @@ Quanto as VMs, todos os dados devem ser armazenados em volumes nos discos locais
 
 ## Arquivos:
 
-Segue o link para downloads das *ISOs* e seus respectivos *checksum*. Todos os arquivos estão em uma única pasta:
+Segue o link para download da *ISO*, seu respectivo *checksum* e *changelog*, como também versões mais antigas:
 
-Arquivos: [pasta](https://www.dropbox.com/sh/9hip5a385kqctar/AAAi8raYbK24QyQPASG47vtta?dl=0){:target="_blank"}   
-Última versão: sino-20211230.iso  
+Última versão (30/12/2021): [sino-20211230.iso](https://www.dropbox.com/s/uon8x25005huurv/sino-20211230.iso?dl=1)   
+MD5Sum: a92be75d6550361c29312b0dd205e507   
 Changelog: [arquivo](http://ernandes.info/sino/ChangeLog.txt){:target="_blank"}    
-Última alteração: 30/12/2021  
+Todos Arquivos: [pasta](https://www.dropbox.com/sh/9hip5a385kqctar/AAAi8raYbK24QyQPASG47vtta?dl=0){:target="_blank"}     
 &nbsp;
 
 ## Gravar image ISO:
 
 Após baixar a image SINO, será necessário gravá-lo em um pendrive. Exemplo:
 ```
-dd if=sino-20210420.iso of=/dev/sdX bs=1M    
+dd if=sino-20211230.iso of=/dev/sdX bs=1M    
 sync
 ```
 * /dev/sdX deve ser alterado de acordo com seu dispositivo USB.  
