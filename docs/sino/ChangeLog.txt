@@ -1,3 +1,11 @@
+ sino-20220429.iso
++--------------------------+
+sex 29 abr 2022 16:13:51 -03
+* Adicionado suporte a bios UEFI para VM.
+* Adicionado opção 'qemu' na configuração da VM para inserir extras ao aplicativo.
+* Adicionado o pacote fsarchiver para realizar backups.
+* Corrigido o problema 'vm stop <vm>' que não desligava a VM.
+
  sino-20220421.iso
 +--------------------------+
 qui 21 abr 2022 17:54:52 -03

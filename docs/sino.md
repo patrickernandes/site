@@ -36,8 +36,8 @@ Quanto as VMs, todos os dados devem ser armazenados em volumes nos discos locais
 
 Segue o link para download da *ISO*, seu respectivo *checksum* e *changelog*, como também versões mais antigas:
 
-Última versão (21/04/2022): [sino-20220421.iso](https://www.dropbox.com/s/35bwbmczec8o35t/sino-20220421.iso?dl=1)   
-MD5Sum: 4aff3ce1b1e60131268ff6a1695fa276   
+Última versão (29/04/2022): [sino-20220429.iso](https://www.dropbox.com/s/imrazeuqi5e3osb/sino-20220429.iso?dl=1)   
+MD5Sum: 79d6483110f0b9896d29902a9533839c   
 Changelog: [arquivo](http://ernandes.info/sino/ChangeLog.txt){:target="_blank"}    
 Todos Arquivos: [pasta](https://www.dropbox.com/sh/9hip5a385kqctar/AAAi8raYbK24QyQPASG47vtta?dl=0){:target="_blank"}     
 &nbsp;
