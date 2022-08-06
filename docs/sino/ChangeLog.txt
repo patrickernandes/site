@@ -1,3 +1,13 @@
+ sino-20220806.iso
++--------------------------+
+* Update de pacotes da base Debian.
+* Atualização do kernel.
+* Adicionado o modulo 'fuse' do kernel para ser carregado no boot.
+* Corrigido IP default da interface 'lo' de rede.
+* Adicionado o comando 'sino disk free' para listar os discos que nao estão sendo usados.
+* Criado a pasta '/srv/iso' para armazenar os arquivos de download iso.
+* Correções diversas no programa 'sino'.
+
  sino-20220429.iso
 +--------------------------+
 sex 29 abr 2022 16:13:51 -03
